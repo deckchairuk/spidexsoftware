@@ -1,0 +1,17 @@
+body {
+	height: 2000px; 
+}
+header {
+	height: 200px;
+	background-color: #F78F1E;
+	transition: all 500ms;
+	
+	&.shrink {
+		height: 100px;
+		background-color: #B66113; 
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;    
+	}
+}
