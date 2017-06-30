@@ -67,6 +67,17 @@ module.exports = function(grunt) {
           }
       },
 
+      autoprefixer: {
+        local: {
+          options: {
+            browsers: ['last 2 versions', 'ie 8', 'ie 9']
+          },
+          files: {
+            'assets/css/main.css': 'assets/css/main.css'
+          },
+        }
+      },
+
       watch: {
         options: {
             atBegin: true,
@@ -74,7 +85,7 @@ module.exports = function(grunt) {
         },
         sass: {
           files: 'assets/scss/**/*.scss',
-          tasks: ['sass:local'],
+          tasks: ['sass:local', 'autoprefixer:local'],
         },
         js: {
           expand: true,

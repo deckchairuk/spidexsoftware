@@ -18,6 +18,7 @@ p, .p {
   @include media-breakpoint-up(md) {
     font-size: 18px;
     line-height: 28px;
+    margin: 36px 0;
   }
 }
 
@@ -42,70 +43,72 @@ strong, em {
 }
 
 h1, .h1 {
-  margin: 26px 0; 
+  margin: $spacer--md 0 $spacer--sm 0; 
   font-size: 30px;
   line-height: 38px; 
   
   @include media-breakpoint-up(md) {
-    margin: 48px 0px; 
+    margin: $spacer--xl 0 $spacer--lg 0; 
     font-size: 36px;
     line-height: 46px; 
   }
 }
 
 h2, .h2 {
-  margin: 26px 0; 
+  margin: $spacer--md 0 $spacer--sm 0; 
   font-size: 24px;
   line-height: 30px; 
   
   @include media-breakpoint-up(md) {
-    margin: 42px 0; 
+    margin: $spacer--xl 0 $spacer--md 0; 
     font-size: 30px;
     line-height: 40px 
   }
 }
 
 h3, .h3 {
-  margin: 26px 0; 
+  margin: $spacer--md 0 $spacer--sm 0; 
   font-size: 20px;
   line-height: 28px; 
   
   @include media-breakpoint-up(md) {
-    margin: 34px 0; 
+    margin: $spacer--xl 0 $spacer--sm 0;
     font-size: 24px;
     line-height: 32px; 
   }
 }
 
 h4, .h4 {
-  margin: 26px 0; 
+    margin: $spacer--md 0 $spacer--sm 0; 
   font-size: 18px;
   line-height: 26px; 
   
   @include media-breakpoint-up(md) {
-    margin: 34px 0; 
+    margin: $spacer--xl 0 $spacer--sm 0; 
     font-size: 20px;
     line-height: 28px; 
   }
 }
 
 h5, .h5 {
-  margin: 26px 0 14px 0; 
+  margin: $spacer--md 0 $spacer--sm 0; 
   font-size: 16px;
   line-height: 23px; 
   
   @include media-breakpoint-up(md) {
-    margin: 34px 0 16px 0;
+    margin: $spacer--xl 0 $spacer--sm 0; 
     font-size: 18px;
     line-height: 28px; 
   }
 }
 
 h6, .h6 {
+  margin: $spacer--md 0 $spacer--sm 0; 
   font-size: 14px;  
   font-weight: 600;  
   
   @include media-breakpoint-up(md) {
+    margin: $spacer--xl 0 $spacer--sm 0; 
     font-size: 16px;
   }
 }
