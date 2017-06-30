@@ -7,9 +7,9 @@ function setup() {
     // Register wp_nav_menu() menus
     // http://codex.wordpress.org/Function_Reference/register_nav_menus
     register_nav_menus([
-        'main_nav'   => __('Main'),
-        'support_nav' => __('Support'),
-        'legal_nav' => __('legal'),
+        'main'   => __('Main'),
+        'support' => __('Support'),
+        'legal' => __('legal'),
     ]);
 
     // Enable HTML5 markup support
@@ -29,6 +29,8 @@ function scripts_styles() {
 
     // Styes
     wp_enqueue_style( 'main', get_template_directory_uri() . '/assets/css/main.css', array(), '1.0.0', 'all' );
+        // Fonts
+        wp_enqueue_style( 'roboto-font', 'https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700', array(), '1.0.0', 'all' );
   }
   
 }

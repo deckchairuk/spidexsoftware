@@ -22,19 +22,38 @@
     }
 
     var headerTransform = function() {
-        $(window).scroll(function() {
-            if ($(window).scrollTop() > 0) {
-                $('header').addClass("shrink");
-            } else {
-                $('header').removeClass("shrink");
-            }
-        });
+        if ($(window).scrollTop() > 1) {
+            $('header').addClass("shrink");
+        } else {
+            $('header').removeClass("shrink");
+        }
+    }
 
+    var supportNavigationToggle = function() {
+        var isOpen = false;
+
+        $('.navigation--support').on('click', function(e) {
+            if (isOpen) {
+                $(this).removeClass('open');
+                isOpen = false;
+            } else {
+                $(this).addClass('open');
+                isOpen = true;
+            }
+
+            e.preventDefault();
+        });
     }
 
     $(function() {
-    	resourceFilters();
+        resourceFilters();
 
+        headerTransform();
+
+        supportNavigationToggle();
+    });
+
+    $(window).scroll(function() {
         headerTransform();
     });
 })(jQuery);

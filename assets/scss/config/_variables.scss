@@ -1,27 +1,31 @@
 // Colours
-$dark-grey: 	#2E2E2E;
-$grey: 			#3E3E3E;
-$light-grey: 	#4A4A4A;
-$faded-grey: 	#F2F2F2;
-$lime-green: 	#AFFF2B;
-$white: 		#fff;
-$black: 		#000;
+$colour-main--first: #f68f1e;
+$colour-main--second: #14415d;
+$colour-secondary--first: #c2661f;
+$colour-secondary--second: #18769a;
+$colour-accent--first: #f6441e;
+$colour-accent--second: #f6b81e;
 
 $colors: (
-  c-dark-grey: 		$dark-grey,
-  c-grey: 			$grey,
-  c-light-grey:   	$light-grey,
-  c-faded-grey: 	$faded-grey,
-  c-lime-green: 	$lime-green,
-  c-white: 			$white,
-  c-black: 			$black,
+	c-main--first: $colour-main--first,
+	c-main--second: $colour-main--second,
+	c-secondary--first: $colour-secondary--first,
+	c-secondary--second: $colour-secondary--second,
+	c-accent--first: $colour-accent--first,
+	c-accent--second: $colour-accent--second,
 );
 
 // Type
-$link-colour: #000;
-$link-colour--active: #000;
-$link-colour--visited: #000;
-$link-colour--hover: #000;
+$link-colour: #6d6e70;
+$link-colour--active: #6d6e70;
+$link-colour--visited: #6d6e70;
+$link-colour--hover: #6d6e70;
 
-$bodyFont: serif;
-$headingFont: sans-serif;
+$bodyFont: 'Roboto', sans-serif;
+$headingFont: 'Roboto', sans-serif;
+
+// Spacing
+$spacer--xl: 85px;
+$spacer--lg: 48px;
+$spacer--md: 42px;
+$spacer--sm: 28px;

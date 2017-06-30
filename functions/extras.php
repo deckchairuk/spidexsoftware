@@ -66,3 +66,14 @@ function pagination($pages = '', $range = 1) {
 
      }
 }
+
+// Menus
+function navigation($navgiation) {
+    $args = array(
+        'theme_location' => $navgiation, 
+        'container' => 'ul', 
+        'menu_class' => 'navigation navigation--'.$navgiation.''
+    );
+
+    return wp_nav_menu($args);
+}

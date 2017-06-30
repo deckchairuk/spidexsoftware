@@ -21,6 +21,12 @@
 	
 // Global
 	@import './global/type';
+	@import './icons';
 
+// Components
+	@import './components/navigation';
+	@import './components/buttons';
+	
 // Modules
 	@import './modules/header';
+	@import './modules/cta';
