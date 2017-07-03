@@ -21,6 +21,7 @@
 	
 // Global
 	@import './global/type';
+	@import './global/global';
 	@import './icons';
 
 // Components
@@ -31,3 +32,5 @@
 	@import './modules/header';
 	@import './modules/cta';
 	@import './modules/wysiwyg-block';
+	@import './modules/hero';
+	@import './modules/list-item';

@@ -1,17 +1,6 @@
-body {
-	margin-top: 150px; 
-}
-
 .header {
 	background-color: #FFF; 
 	z-index: 1;
-
-	.themed-header & {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-	}
 	
 	* {
 		transition: all 500ms;
@@ -31,7 +20,7 @@ body {
 	}
 
 	&.shrink {
-		background-color: #4b4b4b; 
+		background-color: #4b4b4b;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -50,17 +39,77 @@ body {
 .logo {
 	&__large {
 		display: block;
-
-		.shrink & {
-			display: none;
-		}
+		width: 225px;
+		height: 82px; 
 	}
 
 	&__small {
 		display: none;
-		
-		.shrink & {
+		width: 130px;
+		height: 42px;
+	}
+
+	&--white {
+		display: none;
+	}
+}
+
+.themed-header {
+	.logo {
+		&__large {
+			display: none;
+		}
+
+		&__small {
+			display: none;
+			.shrink & {
+				display: block;
+			}
+		}
+
+		&--white {
 			display: block;
+		}
+	}	
+}
+
+.shrink {
+	.logo {
+		&__large {
+			display: none;
+		}
+
+		&__small {
+			display: block;
+		}
+
+		&--white {
+			display: none;
+		}
+	}
+}
+
+body {
+	.header {
+		background-color: #FFF; 
+	}
+}
+
+body.themed-header {
+	.header {
+		background-color: transparent; 
+		position: fixed;
+		top: -150px;
+		left: 0;
+		right: 0;
+		margin-top: 150px;
+		
+		&.shrink {
+			background-color: #4b4b4b;
+		}
+			
+		li a {
+			color: #fff; 
 		}
 	}
 }

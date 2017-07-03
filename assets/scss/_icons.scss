@@ -3,10 +3,10 @@
 
 @font-face {
 	font-family:"icons";
-	src:url("../fonts/icons.eot?8eab6c527202a908c83bbeb24cb0f7cc");
+	src:url("../fonts/icons.eot?b5e0897dd96603f694a9efdf6c7212f3");
 	src:url("../fonts/icons.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/icons.woff?8eab6c527202a908c83bbeb24cb0f7cc") format("woff"),
-		url("../fonts/icons.ttf?8eab6c527202a908c83bbeb24cb0f7cc") format("truetype");
+		url("../fonts/icons.woff?b5e0897dd96603f694a9efdf6c7212f3") format("woff"),
+		url("../fonts/icons.ttf?b5e0897dd96603f694a9efdf6c7212f3") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -34,4 +34,9 @@
 
 .icon_arrow:before {
 	content:"\f101";
+}
+
+
+.icon_lock:before {
+	content:"\f102";
 }

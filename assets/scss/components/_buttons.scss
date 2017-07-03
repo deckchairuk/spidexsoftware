@@ -1,13 +1,36 @@
 .button {
-	padding: 12px 18px; 
+	padding: 16px 20px; 
 	color: #FFF;
 	border-radius: 3px; 
-	background-color: $colour-main--first; 
 	transition: all 200ms;
+  	box-shadow: 1px 1.732px 2.97px 0.03px rgba(0, 0, 0, 0.4);
 	
 	&:hover {
 		color: #fff; 
 		text-decoration: none;
-		background-color: $colour-secondary--first; 
+	}
+
+	&--primary {
+		background-color: $colour-main--first; 
+		
+		&:hover {
+			background-color: darken($colour-main--first, 10%); 
+		}
+	}
+
+	&--secondary {
+		background-color: $colour-accent--first; 
+		
+		&:hover {
+			background-color: darken($colour-accent--first, 10%); 
+		}
+	}
+
+	&--tertiary {
+		background-color: $colour-extra--second; 
+		
+		&:hover {
+			background-color: darken($colour-extra--second, 10%); 
+		}
 	}
 }

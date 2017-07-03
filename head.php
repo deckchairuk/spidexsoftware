@@ -18,6 +18,11 @@
 
         <?php wp_head(); ?>
     </head>
-    <body <?php body_class('themed-header'); ?>>
+    <?php if (is_front_page() || is_singular('projects')) : ?>
+        <body <?php body_class('themed-header'); ?>>
+    <?php else : ?>
+        <body <?php body_class(); ?>>
+    <?php endif; ?>
+
 
     <?php get_template_part('header'); ?>

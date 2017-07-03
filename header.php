@@ -1,5 +1,17 @@
 <header class='header'>
 
+	<div class="support-wrapper">	
+		<div class="container">
+
+			<div class="row">
+				<div class="col">
+					<?php navigation('support'); ?>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
 	<div class="container">
 		<div class="row">
 
@@ -7,16 +19,18 @@
 				<div class="header__inner">
 
 					<div class="logo">
-						<?php $largeLogo = get_field('logo', 'option'); ?>
-						<?php $smallLogo = get_field('small_logo', 'option'); ?>
+						<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/spidex-logo-white.svg" alt="Spidex Software logo" class="logo__large logo--white"/></a>
 
-						<a href="/"><img src="<?php echo $largeLogo['url']; ?>" alt="<?php echo $largeLogo['alt']; ?>" class="logo__large"/></a>
-						<a href="/"><img src="<?php echo $smallLogo['url']; ?>" alt="<?php echo $smallLogo['alt']; ?>" class="logo__small"/></a>
+						<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/spidex-logo-grey.svg" alt="Spidex Software logo" class="logo__large"/></a>
+
+						<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/spidex-logo-all-white.svg" alt="Spidex Software logo" class="logo__small"/></a>
 					</div>
 
 					<?php navigation('main'); ?>
-
-					<?php navigation('support'); ?>
+	
+					<div class="support-toggle">
+						<p>Support <i class="icon icon_arrow"></i></p>
+					</div>
 
 				</div>
 			</div>			

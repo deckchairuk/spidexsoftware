@@ -30,22 +30,21 @@
     }
 
     var supportNavigationToggle = function() {
-        var isOpen = false;
+        var isOpen = false,
+            originalHeaderHeight = $('header').outerHeight();
 
-        $('.navigation--support').on('click', function(e) {
+        $('.support-toggle').on('click', function(e) {
             if (isOpen) {
-                $(this).removeClass('open');
+                $('body').removeClass('support-nav--open');
+                // $('body').css('margin-top', originalHeaderHeight);
+
                 isOpen = false;
             } else {
-                $(this).addClass('open');
+                $('body').addClass('support-nav--open');
+                // $('body').css('margin-top', originalHeaderHeight + 64);
+
                 isOpen = true;
             }
-
-            e.preventDefault();
-        });
-
-        $('.navigation--support .sub-menu').on('click', function(e) {
-            e.stopPropagation();
         });
     }
 
