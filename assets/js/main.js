@@ -43,6 +43,10 @@
 
             e.preventDefault();
         });
+
+        $('.navigation--support .sub-menu').on('click', function(e) {
+            e.stopPropagation();
+        });
     }
 
     $(function() {

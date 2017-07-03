@@ -1,0 +1,1541 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"header",
+				"headerHeight"
+			],
+			[
+				"tag",
+				"tagQS"
+			],
+			[
+				"re",
+				"resources"
+			],
+			[
+				"get_tem",
+				"get_template_part"
+			],
+			[
+				"logged_in",
+				"is_user_logged_in"
+			],
+			[
+				"wp_login",
+				"wp_login_form"
+			],
+			[
+				"login",
+				"login_form"
+			],
+			[
+				"sea",
+				"searchedEventID"
+			],
+			[
+				"get_qu",
+				"get_query_var"
+			],
+			[
+				"mem",
+				"membershipRenewal"
+			],
+			[
+				"user",
+				"userID"
+			],
+			[
+				"membersh",
+				"membershipLevelLabel"
+			],
+			[
+				"current_user",
+				"get_current_user_id"
+			],
+			[
+				"curren",
+				"current_user_can"
+			],
+			[
+				"incenti",
+				"incentiveButtonText"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"rela",
+				"relatedPostTypes"
+			],
+			[
+				"relate",
+				"realtedEventCategory"
+			],
+			[
+				"Member",
+				"Membership"
+			],
+			[
+				"relae",
+				"relatedEvent"
+			],
+			[
+				"members",
+				"membersWithRoles"
+			],
+			[
+				"link",
+				"linkedinProfile"
+			],
+			[
+				"ex",
+				"externalProfile"
+			],
+			[
+				"reset",
+				"wp_reset_postdata"
+			],
+			[
+				"get_the_ex",
+				"get_the_excerpt"
+			],
+			[
+				"venu",
+				"venueID"
+			],
+			[
+				"ven",
+				"venueID"
+			],
+			[
+				"get_the",
+				"get_the_title"
+			],
+			[
+				"twitter",
+				"twitterProfile"
+			],
+			[
+				"lin",
+				"linkedinProfile"
+			],
+			[
+				"twti",
+				"twitterProfile"
+			],
+			[
+				"face",
+				"facebookProfile"
+			],
+			[
+				"conta",
+				"contactForm"
+			],
+			[
+				"regi",
+				"registrationLink"
+			],
+			[
+				"registration",
+				"registrationLink"
+			],
+			[
+				"atten",
+				"attendeeID"
+			],
+			[
+				"is_page",
+				"is_page"
+			],
+			[
+				"is",
+				"isRequired"
+			],
+			[
+				"has",
+				"hasValue"
+			],
+			[
+				"focus",
+				"focusout"
+			],
+			[
+				"even",
+				"eventStartDate"
+			],
+			[
+				"eve",
+				"eventEndDate"
+			],
+			[
+				"event",
+				"eventID"
+			],
+			[
+				"user_id",
+				"get_current_user_id"
+			],
+			[
+				"res",
+				"researchActive"
+			],
+			[
+				"is_singl",
+				"is_singular"
+			],
+			[
+				"post_tp",
+				"post_type_archive_title"
+			],
+			[
+				"deadl",
+				"deadlineDate"
+			],
+			[
+				"search",
+				"searchQuery"
+			],
+			[
+				"get_q",
+				"get_query_var"
+			],
+			[
+				"relat",
+				"relatedUserList"
+			],
+			[
+				"relatedUser",
+				"relatedUsersNonMembers"
+			],
+			[
+				"espresso_",
+				"espresso_event_categories"
+			],
+			[
+				"eventHide",
+				"eventHideNetworkingEvents"
+			],
+			[
+				"feature",
+				"featuredPageText"
+			],
+			[
+				"featu",
+				"featuredPageLabel"
+			],
+			[
+				"sear",
+				"search_string"
+			],
+			[
+				"ticketIn",
+				"eventTicketIncludesText"
+			],
+			[
+				"inform",
+				"eventInformation"
+			],
+			[
+				"rea",
+				"researchActive"
+			],
+			[
+				"porf",
+				"profileImage"
+			],
+			[
+				"requ",
+				"requestedUser"
+			],
+			[
+				"single",
+				"single_post_title"
+			],
+			[
+				"feat",
+				"featuredItem"
+			],
+			[
+				"get_template",
+				"get_template_directory"
+			],
+			[
+				"funct",
+				"function_exists"
+			],
+			[
+				"ddl",
+				"ddlEventIDs"
+			],
+			[
+				"related",
+				"relatedEvent"
+			],
+			[
+				"ddlEve",
+				"ddlEventIDs"
+			],
+			[
+				"the_post",
+				"the_post_thumbnail"
+			],
+			[
+				"QUERY_ST",
+				"win32_query_service_status"
+			],
+			[
+				"enque",
+				"wp_enqueue_style"
+			],
+			[
+				"the_ecer",
+				"the_excerpt"
+			],
+			[
+				"templaet",
+				"template"
+			],
+			[
+				"query",
+				"queryTagsArray"
+			],
+			[
+				"quer",
+				"queryTag"
+			],
+			[
+				"wp_reser",
+				"wp_reset_query"
+			],
+			[
+				"post_th",
+				"post_thumbnail_size"
+			],
+			[
+				"the",
+				"the_tags"
+			],
+			[
+				"loop",
+				"loop_start"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"wp_list",
+				"wp_list_categories"
+			],
+			[
+				"team",
+				"teamMemberTaxID"
+			],
+			[
+				"con",
+				"contentOffest"
+			],
+			[
+				"content",
+				"contentHeight"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"template",
+				"template_directory"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"he",
+				"outerHeight"
+			],
+			[
+				"next",
+				"nextTextBlock"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"nex",
+				"nextTextBlockContainer"
+			],
+			[
+				"tex",
+				"textBlockContainer"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"te",
+				"textBlockContainer"
+			],
+			[
+				"homewr",
+				"home-wrapper"
+			],
+			[
+				"blo",
+				"blockHeight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/harryfrancis/Clients/Harry Francis/webgl/index.html",
+			"settings":
+			{
+				"buffer_size": 5725,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pr",
+		"selected_items":
+		[
+			[
+				"pr",
+				"Permute Lines: Reverse"
+			],
+			[
+				"theme",
+				"Material Theme: Activate theme"
+			],
+			[
+				"colour ",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"dash",
+				"DashDoc: invoke Dash with selected word"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"radir",
+				"Package Control: Add Repository"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 185.0,
+		"history":
+		[
+			"cd ~/Clients",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/harryfrancis/Clients/Harry Francis/webgl"
+	],
+	"file_history":
+	[
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/articles-list.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/dploy.yaml",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/modules/_wysiwyg-block.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/content-block-wysiwyg.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/cta-your-project.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/template-index-resources.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/components/_buttons.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/front-page.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/header.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/resources-list.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/footer.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/functions/frontend-login.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/js/main.js",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/main.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/modules/wysiwyg-block.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/modules/_cta.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/config/_helpers.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/global/_type.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/config/_variables.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/components/_navigation.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/modules/_header.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/gruntfile.js",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/css/main.css",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/bootstrap/_variables.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/modules/_navigation.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/functions/setup.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/functions/extras.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/plugins/admin-menu-editor-pro/extras.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/head.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-includes/theme-compat/footer.php",
+		"/Users/harryfrancis/Clients/Sublime projects/Spidex Software.sublime-project",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/plugins/admin-menu-editor-pro/includes/role-utils.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-includes/theme-compat/header.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/.gitignore",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/global/_header.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/template-index-events.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/template-index-projects.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/template-index-articles.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/events-list.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/projects-list.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/articles-list-item.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/template-contact.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/functions/queries.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/projects-list-item.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/events-list-item.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/functions/acf.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/resources-single.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/vendor/_select2.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/js/vendor/select2.js",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/functions/filters.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-admin/css/press-this-rtl.css",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/archive-resource.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/resources-listing.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/resource-single.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/content/resource-listing.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/functions.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/functions/facet-wp.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/vendor/_wordpress.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/404.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/template-home.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/template-index-article.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/template-index-products.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/template-resources.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/templates/template-your-project.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/single-article.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/single-event.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/single-project.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/js/vendor/modernizr.js",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/js/vendor/respond.js",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/bootstrap/_mixins.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/config/_defaults.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/global",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/scss/config/_mixins.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/sass/main.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/package.json",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/gulpfile.js",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/spidexsoftware/assets/sass/vendor/_normalize.scss",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/functions/setup.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/templates/template-home.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/functions/acf.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/functions.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/single-event.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/single-article.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/single-project.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/templates/template-contact.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/templates/template-index-events.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/templates/template-index-products.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/templates/template-index-projects.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/templates/template-resources.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/templates/template-index-article.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/templates/template-whats-new.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/templates/template-your-project.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/templates/templates-index-projects.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/front-page.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/templates/template-products.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/templates/template-events.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/archive.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/header.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/index.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/footer.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-content/themes/Spidex Software/404.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/env.php",
+		"/Users/harryfrancis/Clients/Spidex Software/site/wp-config.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/modules/404.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/functions/s2member-notifications.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/modules/home/research__featured.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/assets/scss/modules/_updates.scss",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/modules/home/updates.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/functions/member-directory.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/templates/member-listing.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/[s2Member-Pro-Stripe-Form level=\"1\" ccaps=\"\" desc=",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/assets/js/main.js",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/assets/scss/modules/_form.scss",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/functions/wp-queries.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/modules/head.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/modules/header.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/dploy.yaml",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/assets/scss/modules/_grants-and-awards.scss",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/assets/scss/modules/_abstracts.scss",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/modules/home/grants-and-awards-list.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/modules/abstracts/single-list-item.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/modules/research/single-list.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/uploads/.htaccess",
+		"/Users/harryfrancis/Clients/Deckchair/uxtailsoup.dev/assets/plugins/wp-nested-pages/app/Entities/Confirmation/TrashRestoredConfirmation.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/modules/abstracts/single.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/modules/home/hero__home.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/modules/grants-awards/single.php",
+		"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/modules/grants-awards/listing.php"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/plugins/event-espresso-core-reg",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/plugins/event-espresso-core-reg",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/the-aerosol-society/themes",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/themes",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/plugins/event-espresso-core-reg",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/plugins/advanced-custom-fields-pro",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/plugins/wdm-customize-event-booking-flow",
+			"/Users/harryfrancis/Clients/TheAerosolSociety",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/themes/the-aerosol-society",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/plugins/",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/plugins/event-espresso-core-reg",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/assets/scss",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society/**/*.scss",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society",
+			"",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/plugins/simple-local-avatars",
+			"/Users/harryfrancis/Clients/TheAerosolSociety/site/assets/themes/the-aerosol-society",
+			"/Users/harryfrancis/Clients/The Aerosol Society/site/assets/themes/the-aerosol-society",
+			"/Users/harryfrancis/Clients/The Aerosol Society/site/assets/themes/the-aerosol-society/assets/scss",
+			"/Users/harryfrancis/Clients/The Aerosol Society/site/assets/scss",
+			"/Users/harryfrancis/Clients/The Aerosol Society/site/assets/",
+			"/Users/harryfrancis/Clients/The Aerosol Society/site/assets/scss",
+			"/Users/harryfrancis/Clients/The Aerosol Society/site/assets/plugins/amr-users",
+			"/Users/harryfrancis/Clients/The Aerosol Society/site/assets/plugins/facetwp",
+			"/Users/harryfrancis/Clients/The Aerosol Society/site/assets/plugins",
+			"/Users/harryfrancis/Clients/The Aerosol Society/site/assets/themes/the-aerosol-society",
+			"<current file>",
+			"/Users/harryfrancis/Clients/The Aerosol Society/site/assets/plugins",
+			"<current file>",
+			"<current file>,<open folders>",
+			"<current file>",
+			"",
+			"<open files>",
+			"",
+			"<current file>",
+			"<open files>",
+			"",
+			"<current file>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"parent",
+			" *",
+			"div",
+			"__",
+			"__sm",
+			"sm",
+			"transform",
+			"prefix",
+			"content",
+			"'open'",
+			";",
+			":",
+			"secondary",
+			"primary",
+			"main",
+			"image",
+			"render_",
+			"_nav",
+			"\t\t\t\t\t'menu' => 'support_nav',\n\t\t\t\t\t'container' => 'div',\n\t\t\t\t\t'container_class' => 'menu-{menu-slug}-container',\n\t\t\t\t\t'container_id' => '',\n\t\t\t\t\t'menu_class' => 'menu',\n\t\t\t\t\t'menu_id' => '',\n\t\t\t\t\t'echo' => true,\n\t\t\t\t\t'fallback_cb' => 'wp_page_menu',\n\t\t\t\t\t'before' => '',\n\t\t\t\t\t'after' => '',\n\t\t\t\t\t'link_before' => '',\n\t\t\t\t\t'link_after' => '',\n\t\t\t\t\t'items_wrap' => '<ul id = \"%1$s\" class = \"%2$s\">%3$s</ul>',\n\t\t\t\t\t'depth' => 0,\n\t\t\t\t\t'walker' => ''\n",
+			"jQuery",
+			"small",
+			"projects",
+			"events",
+			"resources",
+			"        'facetwp' => true,",
+			"location",
+			"querySearch",
+			"salesStaff",
+			"types",
+			"my_",
+			"fff",
+			"case_study",
+			"my_",
+			"example_meta_query",
+			"status",
+			"/\"><",
+			"</a>",
+			"config",
+			"fff",
+			"bp",
+			"tablet",
+			"media",
+			".scss",
+			"_grid",
+			"scss/",
+			"scss",
+			"./",
+			"c-",
+			"assets",
+			"PR",
+			"Contact",
+			"aerosol-soc",
+			"guest",
+			"default_country_code=\"GB\" captcha=\"0\" captcha=\"clean\" success=\"http://aerosol-soc.com/become-a-member/thank-you/?fname=%%user_first_name%%\"/]",
+			" default_country_code=\"GB\" captcha=\"0\" captcha=\"clean\" success=\"http://aerosol-soc.com/become-a-member/thank-you/?fname=%%user_first_name%%\"/]",
+			"rr=\"1\" coupon=\"\" accept_coupons=\"1\" default_country_code=\"GB\" captcha=\"0\" captcha=\"clean\" success=\"http://aerosol-soc.com/become-a-member/thank-you/?fname=%%user_first_name%%\"/]",
+			"aerosol-soc.dev",
+			"Sorry, the sele",
+			"exist",
+			"text",
+			"research",
+			"reasearch",
+			"none",
+			"?v=2",
+			"date(",
+			"abstract",
+			"become-a-member",
+			"\n",
+			"gravity",
+			"renew your membership on an annual basis using the payment details you have provided",
+			"TICKET_NAME",
+			"$ ",
+			"\n",
+			"Research",
+			"research",
+			"\n",
+			"uk",
+			"ollie",
+			"match",
+			"#f2f5f5",
+			"get_field",
+			"<!-- <h6 class=\"vmargin--sm\">13th May 2015</h6> -->",
+			"<h6>2016</h6>",
+			"//",
+			"#b8e5f5",
+			"<h6 class=\"vmargin--sm\">13th May 2015</h6>",
+			"h5",
+			"h4",
+			"winner",
+			"                            ",
+			"md",
+			"12",
+			"padding",
+			"realted",
+			"programme",
+			"Abstracts",
+			"paddin",
+			"sm",
+			"search",
+			"js__search-query",
+			"invoice",
+			"big event",
+			"invoice",
+			"</p>",
+			"<p>",
+			"</p>",
+			"<p>",
+			"<br>",
+			"<p>",
+			"</p>",
+			"signup",
+			"_guest",
+			"echo ",
+			"echo",
+			"</p>",
+			"<p>",
+			"'.site_url().'",
+			"<br/>",
+			".'",
+			"=",
+			"<li>",
+			"</p>\n<p>",
+			"</p>",
+			"jQuery(window).resize(function() {\n    greedyNavFloatFix();\n});",
+			"$this->_extra_data",
+			"$this->_data",
+			"EE_Transaction_Shortcodes ",
+			"this"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"item",
+			" col-md-8 col-md-push-2",
+			"getify('espresso_event_date_range')",
+			"<?php espresso_event_date_range( 'jS M Y', ' ', 'jS M Y', ' ', $eventID ); ?>",
+			"006c8f",
+			"14a36f",
+			"db0b43",
+			" col-sm-8 col-sm-push-2",
+			"\\n",
+			"\"",
+			"'",
+			" get_template_directory() . '",
+			"font-weight: 300;",
+			"accordion",
+			"accordian",
+			"",
+			"bp(tablet",
+			"bp(mobile",
+			"jQuery",
+			"\"/assets/themes/mindatwork/",
+			"video",
+			"",
+			"laptop",
+			".postWrapperContent"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/harryfrancis/Clients/Harry Francis/webgl/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3366,
+								3366
+							]
+						],
+						"settings":
+						{
+							"rainbowth.lispy": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2141.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 67.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "webgl.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"front",
+				"spidexsoftware/functions/frontend-login.php"
+			],
+			[
+				"header",
+				"spidexsoftware/header.php"
+			],
+			[
+				"header.scss",
+				"spidexsoftware/assets/scss/modules/_header.scss"
+			],
+			[
+				"virable",
+				"spidexsoftware/assets/scss/config/_variables.scss"
+			],
+			[
+				"varia",
+				"spidexsoftware/assets/scss/bootstrap/_variables.scss"
+			],
+			[
+				"varibles",
+				"spidexsoftware/assets/scss/config/_variables.scss"
+			],
+			[
+				"extr",
+				"site/wp-content/themes/spidexsoftware/functions/extras.php"
+			],
+			[
+				"extra",
+				"site/wp-content/plugins/admin-menu-editor-pro/extras.php"
+			],
+			[
+				"footer",
+				"site/wp-content/themes/spidexsoftware/footer.php"
+			],
+			[
+				"head",
+				"spidexsoftware/head.php"
+			],
+			[
+				"aero",
+				"site/wp-content/plugins/admin-menu-editor-pro/includes/role-utils.php"
+			],
+			[
+				"setup",
+				"spidexsoftware/functions/setup.php"
+			],
+			[
+				"pr",
+				"site/wp-admin/css/press-this-rtl.css"
+			],
+			[
+				"dire",
+				"the-aerosol-society/functions/member-directory.php"
+			],
+			[
+				"queries",
+				"the-aerosol-society/functions/wp-queries.php"
+			],
+			[
+				"dploy",
+				"the-aerosol-society/dploy.yaml"
+			],
+			[
+				"main.scss",
+				"the-aerosol-society/assets/scss/main.scss"
+			],
+			[
+				"custom-sho",
+				"the-aerosol-society/functions/ee-custom-shortcodes.php"
+			],
+			[
+				"functions",
+				"the-aerosol-society/functions.php"
+			],
+			[
+				"grant",
+				"the-aerosol-society/assets/scss/modules/_grants-and-awards.scss"
+			],
+			[
+				"icons",
+				"the-aerosol-society/assets/scss/_icons.scss"
+			],
+			[
+				"ergo",
+				"the-aerosol-society/node_modules/svgo/plugins/moveGroupAttrsToElems.js"
+			],
+			[
+				"sponsors",
+				"the-aerosol-society/modules/sponsors/single.php"
+			],
+			[
+				"fa",
+				"site/wp-includes/feed-atom.php"
+			],
+			[
+				"sponsors/s",
+				"the-aerosol-society/modules/sponsors/single.php"
+			],
+			[
+				"sponsors/sing",
+				"the-aerosol-society/modules/sponsors/single.php"
+			],
+			[
+				"spon",
+				"the-aerosol-society/single-sponsors.php"
+			],
+			[
+				"research",
+				"the-aerosol-society/single-research.php"
+			],
+			[
+				"env.",
+				"site/env.php"
+			],
+			[
+				"relate",
+				"the-aerosol-society/functions/related-posts.php"
+			],
+			[
+				"function",
+				"the-aerosol-society/functions.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"singl",
+				"loop/assets/themes/loop/single.php"
+			],
+			[
+				"page",
+				"loop/page.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"filter",
+				"app/Http/Requests/FilterFormRequest.php"
+			],
+			[
+				"placescon",
+				"app/Http/Controllers/PlacesController.php"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"",
+				"app/Http/Controllers/PlacesController.php"
+			],
+			[
+				"placescontrol",
+				"app/Http/Controllers/PlacesController.php"
+			],
+			[
+				"contro",
+				"app/Http/Controllers/Controller.php"
+			],
+			[
+				"filterf",
+				"app/Http/Requests/FilterFormRequest.php"
+			],
+			[
+				"rout",
+				"site/app/Http/routes.php"
+			],
+			[
+				"artic",
+				"app/Article.php"
+			],
+			[
+				"article",
+				"app/Article.php"
+			],
+			[
+				"create",
+				"resources/views/articles/create.blade.php"
+			],
+			[
+				"arti",
+				"app/Http/Controllers/ArticlesController.php"
+			],
+			[
+				"articl",
+				"app/Http/Controllers/ArticlesController.php"
+			],
+			[
+				"blade",
+				"resources/views/articles/create.blade.php"
+			],
+			[
+				"app.",
+				"config/app.php"
+			],
+			[
+				"acontroller",
+				"app/Http/Controllers/ArticlesController.php"
+			],
+			[
+				"config/ap",
+				"config/app.php"
+			],
+			[
+				"controll",
+				"app/Http/Controllers/Controller.php"
+			],
+			[
+				"app.php",
+				"bootstrap/app.php"
+			],
+			[
+				"pages",
+				"app/Http/Controllers/PagesController.php"
+			],
+			[
+				"about",
+				"resources/views/pages/about.blade.php"
+			],
+			[
+				"contact",
+				"resources/views/pages/contact.blade.php"
+			],
+			[
+				"app",
+				"resources/views/app.blade.php"
+			],
+			[
+				"routes.",
+				"app/Http/routes.php"
+			],
+			[
+				"media",
+				"static-build/src/assets/scss/utilities/_media-queries.scss"
+			],
+			[
+				"ie.",
+				"static-build/src/assets/scss/ie.scss"
+			],
+			[
+				"http",
+				"static-build/node_modules/grunt-browser-sync/node_modules/browser-sync/node_modules/foxy/node_modules/http-proxy/lib/http-proxy.js"
+			],
+			[
+				"sty",
+				"mindatwork/style.css"
+			],
+			[
+				"con",
+				"static-build/src/assets/scss/_config.scss"
+			],
+			[
+				"stru",
+				"static-build/src/assets/scss/templates/_structure.scss"
+			],
+			[
+				"gri",
+				"static-build/src/assets/scss/base/_grid.scss"
+			],
+			[
+				"main",
+				"static-build/src/assets/scss/main.scss"
+			],
+			[
+				"type",
+				"static-build/src/assets/scss/base/_type.scss"
+			],
+			[
+				"config",
+				"static-build/src/assets/scss/_config.scss"
+			],
+			[
+				"grid",
+				"static-build/src/assets/scss/base/_grid.scss"
+			],
+			[
+				"dem",
+				"static-build/src/assets/scss/_demo.scss"
+			],
+			[
+				"postdeafult",
+				"site-cookbooks/post/recipes/default.rb"
+			],
+			[
+				"f",
+				"Cheffile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "spide",
+		"selected_items":
+		[
+			[
+				"spide",
+				"~/Clients/Sublime projects/Spidex Software.sublime-project"
+			],
+			[
+				"harry",
+				"~/Clients/Sublime projects/Harry Francis.sublime-project"
+			],
+			[
+				"harryfr",
+				"~/Clients/Sublime projects/Harry Francis.sublime-project"
+			],
+			[
+				"pr",
+				"~/Clients/Sublime projects/Prompt maternity.sublime-project"
+			],
+			[
+				"pro",
+				"~/Clients/Sublime projects/Prompt maternity.sublime-project"
+			],
+			[
+				"aero",
+				"~/Clients/Sublime projects/Aerosol society.sublime-project"
+			],
+			[
+				"hydra",
+				"~/Clients/Sublime projects/Hydralok.sublime-project"
+			],
+			[
+				"hydr",
+				"~/Clients/Sublime projects/Hydralok.sublime-project"
+			],
+			[
+				"aer",
+				"~/Clients/Sublime projects/Aerosol society.sublime-project"
+			],
+			[
+				"prom",
+				"~/Clients/Sublime projects/Prompt maternity.sublime-project"
+			],
+			[
+				"propt",
+				"~/Clients/Sublime projects/Prompt maternity.sublime-project"
+			],
+			[
+				"thou",
+				"~/Clients/Sublime projects/Thought and Mortar.sublime-project"
+			],
+			[
+				"though",
+				"~/Clients/Sublime projects/Thought and Mortar.sublime-project"
+			],
+			[
+				"pormp",
+				"~/Clients/Sublime projects/Prompt maternity.sublime-project"
+			],
+			[
+				"promp",
+				"~/Clients/Sublime projects/Prompt maternity.sublime-project"
+			],
+			[
+				"prompt",
+				"~/Clients/Sublime projects/Prompt maternity.sublime-project"
+			],
+			[
+				"ae",
+				"~/Clients/Sublime projects/Aerosol society.sublime-project"
+			],
+			[
+				"hyd",
+				"~/Clients/Sublime projects/Hydralok.sublime-project"
+			],
+			[
+				"hy",
+				"~/Clients/Sublime projects/Hydralok.sublime-project"
+			],
+			[
+				"radir",
+				"~/Clients/Sublime projects/Radir.sublime-project"
+			],
+			[
+				"noise",
+				"~/Clients/Sublime projects/Noise filter.sublime-project"
+			],
+			[
+				"",
+				"~/Clients/Sublime projects/Thought and Mortar.sublime-project"
+			],
+			[
+				"ux",
+				"~/Clients/Sublime projects/uxtailsoup.sublime-project"
+			],
+			[
+				"us",
+				"~/Clients/Sublime projects/uxtailsoup.sublime-project"
+			],
+			[
+				"prm",
+				"~/Clients/Sublime projects/Prompt maternity.sublime-project"
+			],
+			[
+				"promt",
+				"~/Downloads/Prompt WP.sublime-project"
+			],
+			[
+				"pompr",
+				"~/Clients/Sublime projects/Prompt maternity.sublime-project"
+			],
+			[
+				"deck",
+				"~/Clients/Deckchair/deckchair/assets/themes/deckchair-theme/assets/js/deckchair.sublime-project"
+			],
+			[
+				"ergo",
+				"~/Clients/Sublime projects/Ergochair.sublime-project"
+			],
+			[
+				"iumpo",
+				"~/Clients/Sublime projects/AS Member import.sublime-project"
+			],
+			[
+				"ero",
+				"~/Clients/Sublime projects/Ergochair.sublime-project"
+			],
+			[
+				"ergochair",
+				"~/Clients/Sublime projects/Ergochair.sublime-project"
+			],
+			[
+				"erog",
+				"~/Clients/Sublime projects/Ergochair.sublime-project"
+			],
+			[
+				"healthy",
+				"~/Clients/Sublime projects/healthy-schools.sublime-project"
+			],
+			[
+				"uxtai",
+				"~/Clients/Sublime projects/uxtailsoup.sublime-project"
+			],
+			[
+				"uxta",
+				"~/Clients/Sublime projects/uxtailsoup.sublime-project"
+			],
+			[
+				"base",
+				"~/Clients/Sublime projects/Base.sublime-project"
+			],
+			[
+				"er",
+				"~/Clients/Sublime projects/Ergochair.sublime-project"
+			],
+			[
+				"deckch",
+				"~/Clients/Deckchair/deckchair/assets/themes/deckchair-theme/assets/js/deckchair.sublime-project"
+			],
+			[
+				"deckc",
+				"~/Clients/Deckchair/deckchair/assets/themes/deckchair-theme/assets/js/deckchair.sublime-project"
+			],
+			[
+				"hyde",
+				"~/Clients/Sublime projects/hydralok.sublime-project"
+			],
+			[
+				"harr",
+				"~/Clients/Loop/loop/assets/themes/loop/modules/Harry Francis.sublime-project"
+			],
+			[
+				"ex",
+				"~/Clients/Sublime projects/excel-to-xml.sublime-project"
+			],
+			[
+				"cts",
+				"~/Clients/CTS/cts/assets/themes/cts-homes/project.sublime-project"
+			],
+			[
+				"harryfra",
+				"~/Clients/Loop/loop/assets/themes/loop/modules/Harry Francis.sublime-project"
+			],
+			[
+				"health",
+				"~/Clients/CTS/cts/assets/themes/cts-homes/assets/scss/Healthy schools.sublime-project"
+			],
+			[
+				"hdyra",
+				"~/Clients/Sublime projects/hydralok.sublime-project"
+			],
+			[
+				"radi",
+				"~/Clients/Sublime projects/radir.sublime-project"
+			],
+			[
+				"rda",
+				"~/Clients/Sublime projects/radir.sublime-project"
+			],
+			[
+				"rad",
+				"~/Clients/Sublime projects/radir.sublime-project"
+			],
+			[
+				"foo",
+				"~/Clients/Sublime projects/Foodie.sublime-project"
+			],
+			[
+				"a",
+				"~/Clients/Sublime projects/A bleaker predicklement.sublime-project"
+			],
+			[
+				"dec",
+				"~/Clients/Deckchair/deckchair/assets/themes/deckchair-theme/assets/js/deckchair.sublime-project"
+			],
+			[
+				"chew",
+				"~/Clients/Chew Valley Trees/cvt.sublime-project"
+			],
+			[
+				"mind",
+				"~/Clients/Mind at Work/mind-at-work/assets/themes/mindatwork/static-build/mindatwork.sublime-project"
+			],
+			[
+				"laravel",
+				"~/Clients/Sublime projects/Laravel.sublime-project"
+			],
+			[
+				"men",
+				"~/Clients/Mendip Christmas Fair/mendip-fair/mendipfair.sublime-workspace"
+			],
+			[
+				"mend",
+				"~/Clients/Mendip Christmas Fair/mendip-fair/mendipfair.sublime-workspace"
+			],
+			[
+				"eck",
+				"~/Clients/Deckchair/deckchair/assets/themes/deckchair-theme/assets/js/deckchair.sublime-project"
+			],
+			[
+				"data",
+				"~/Clients/Spidex/datasabre/wp-content/themes/datasabre/datasabre.sublime-project"
+			],
+			[
+				"CTS",
+				"~/Clients/CTS/cts/assets/themes/cts-homes/project.sublime-project"
+			],
+			[
+				"min",
+				"~/Clients/Mind at Work/mind-at-work/assets/themes/mindatwork/static-build/mindatwork.sublime-project"
+			],
+			[
+				"dat",
+				"~/Clients/Spidex/datasabre/wp-content/themes/datasabre/datasabre.sublime-project"
+			],
+			[
+				"heal",
+				"~/Clients/CTS/cts/assets/themes/cts-homes/assets/scss/Healthy schools.sublime-project"
+			],
+			[
+				"rem",
+				"~/Clients/Remarkable Retreats/remarkable-retreats/css/remarkable retreats.sublime-project"
+			],
+			[
+				"dekchc",
+				"~/Clients/Deckchair/deckchair/assets/themes/deckchair-theme/assets/js/deckchair.sublime-project"
+			],
+			[
+				"menup",
+				"~/Clients/Mendip Christmas Fair/mendip-fair/wordpress/project.sublime-project"
+			],
+			[
+				"mendip",
+				"~/Clients/Mendip Christmas Fair/mendip-fair/mendipfair.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 287.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

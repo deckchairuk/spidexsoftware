@@ -42,3 +42,26 @@ a {
 		margin-bottom: 0!important; 
 	}
 }
+
+// Vertical padding
+.vp {
+	&--sm {
+		padding-top: $spacer--sm;
+		padding-bottom: $spacer--sm;
+	}
+
+	&--md {
+		padding-top: $spacer--md;
+		padding-bottom: $spacer--md;
+	}
+
+	&--lg {
+		padding-top: $spacer--lg;
+		padding-bottom: $spacer--lg;
+	}
+
+	&--xl {
+		padding-top: $spacer--xl;
+		padding-bottom: $spacer--xl;
+	}
+}

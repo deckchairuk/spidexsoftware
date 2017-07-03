@@ -1,6 +1,17 @@
+body {
+	margin-top: 150px; 
+}
+
 .header {
 	background-color: #FFF; 
 	z-index: 1;
+
+	.themed-header & {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
 	
 	* {
 		transition: all 500ms;

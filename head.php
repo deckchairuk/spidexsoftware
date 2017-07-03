@@ -18,6 +18,6 @@
 
         <?php wp_head(); ?>
     </head>
-    <body>
+    <body <?php body_class('themed-header'); ?>>
 
     <?php get_template_part('header'); ?>

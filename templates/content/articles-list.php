@@ -5,7 +5,6 @@
 	    <?php while ( $articles->have_posts() ) : $articles->the_post(); ?>
 			<?php get_template_part('templates/content/articles', 'list-item'); ?>
 	    <?php endwhile; ?>
-
 	<?php else:  ?>
 		There are no articles to display
 	<?php endif; ?>
