@@ -21,17 +21,19 @@ ul.navigation {
 		} 
 	}
 
-	@include media-breakpoint-down(lg) {
-		padding-right: 150px;
+	@include media-breakpoint-down(md) {
+		padding-right: 0;
 		
 		li {
-			margin-right: 30px; 
+			margin-right: 24px;
+			font-size: 16px; 
 			
 			&:last-child {
 				margin-right: 0px; 
 			} 
 		}
 	}
+
 }
 
 .support-wrapper {
@@ -89,12 +91,12 @@ ul.navigation {
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
 	color: #fff; 
-	padding: 8px 18px;
+	padding: 2px 12px;
 	cursor: pointer;
 	
 	p {
 		margin: 0;
-		font-size: 16px; 
+		font-size: 14px; 
 		
 		i {
 			margin-left: 10px; 

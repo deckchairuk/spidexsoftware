@@ -9,7 +9,7 @@
 	<div class="container">
 
 		<div class="row">
-			<div class="col-12-xs col-md-9">
+			<div class="col col-md-9">
 				<div class="hero__inner">
 					<h1>Return on CMMS investment within six months</h1>
 
@@ -17,7 +17,7 @@
 				</div>
 			</div>
 
-			<div class="col-12-xs col-md-3">
+			<div class="col col-md-3">
 				<div class="project-id hero__inner">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/dev/huntapac.png" alt="">
 
@@ -37,7 +37,7 @@
 	<div class="container">
 
 		<div class="row">
-			<div class="col-12-xs col-md-9">
+			<div class="col col-md-9">
 				<h2>Situation</h2>
 
 				<p>In an audit carried out by a major retail customer, Huntapac was criticised for its manually-recorded preventative maintenance regime and for its management of engineering spare parts.</p>
@@ -51,7 +51,7 @@
 	<div class="container">
 
 		<div class="row">
-			<div class="col-12-xs col-md-9">
+			<div class="col col-md-9">
 				<h2>Implementation</h2>
 
 				<p>Huntapac selected Mainsaver CMMS to support improved practices in its management of plant maintenance.</p>
@@ -71,7 +71,7 @@
 	<div class="container">
 
 		<div class="row">
-			<div class="col-12-xs col-md-11">
+			<div class="col col-md-11">
 				<h2>Result</h2>
 
 				<div class="result__panel">
@@ -96,7 +96,7 @@
 	<div class="container">	
 
 		<div class="row">
-			<div class="col-12-xs">
+			<div class="col">
 				<div class="quote__inner">
 					<h2>“The most important factor for me is that we now have a sense of control. Previously we were inclined to rely on gut feeling if we needed make a decision on maintenance costs - now we have all the information we need for that type of discussion at hand.”</h2>
 
@@ -113,7 +113,7 @@
 	<div class="container">
 
 		<div class="row">
-			<div class="col-12-xs col-md-8">
+			<div class="col col-md-8">
 				<h2>Next steps</h2>
 
 				<p>Following the success of the Mainsaver CMMS implementation, Huntapac subsequently installed Spidex’s health & safety software EPRAIS to manage and audit risk assessments and work permits for its engineers and contractors.</p>

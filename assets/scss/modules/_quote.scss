@@ -18,6 +18,11 @@
 	&__inner {
 		padding-left: 50px;
 		border-left: 2px solid #fff;
+		
+		@include media-breakpoint-down(sm) {
+			padding-left: 20px;
+			border-left: 2px solid #fff;
+		}
 	}
 	
 	h2 {
@@ -25,6 +30,11 @@
 		color: #FFF;
 		margin-bottom: 52px; 
 		font-style: italic; 
+		
+		@include media-breakpoint-down(sm) {
+			font-size: 22px;
+		    line-height: 26px;
+		}
 	}
 
 	h4 {

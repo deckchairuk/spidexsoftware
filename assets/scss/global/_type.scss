@@ -48,7 +48,7 @@ h1, .h1 {
   line-height: 38px; 
   
   @include media-breakpoint-up(md) {
-    margin: $spacer--xl 0 $spacer--lg 0; 
+    margin: $spacer--lg 0 $spacer--ml 0; 
     font-size: 60px;
     line-height: 72px; 
   }
@@ -60,7 +60,7 @@ h2, .h2 {
   line-height: 30px; 
   
   @include media-breakpoint-up(md) {
-    margin: $spacer--xl 0 $spacer--md 0; 
+    margin: $spacer--lg 0 $spacer--md 0; 
     font-size: 36px;
     line-height: 46px 
   }
@@ -72,7 +72,7 @@ h3, .h3 {
   line-height: 28px; 
   
   @include media-breakpoint-up(md) {
-    margin: $spacer--xl 0 $spacer--sm 0;
+    margin: $spacer--lg 0 $spacer--sm 0;
     font-size: 30px;
     line-height: 40px; 
   }
@@ -84,7 +84,7 @@ h4, .h4 {
   line-height: 26px; 
   
   @include media-breakpoint-up(md) {
-    margin: $spacer--xl 0 $spacer--sm 0; 
+    margin: $spacer--lg 0 $spacer--sm 0; 
     font-size: 24px;
     line-height: 36px; 
   }
@@ -96,7 +96,7 @@ h5, .h5 {
   line-height: 23px; 
   
   @include media-breakpoint-up(md) {
-    margin: $spacer--xl 0 $spacer--sm 0; 
+    margin: $spacer--lg 0 $spacer--sm 0; 
     font-size: 18px;
     line-height: 28px; 
   }
@@ -108,7 +108,7 @@ h6, .h6 {
   font-weight: 600;  
   
   @include media-breakpoint-up(md) {
-    margin: $spacer--xl 0 $spacer--sm 0; 
+    margin: $spacer--lg 0 $spacer--sm 0; 
     font-size: 16px;
   }
 }
