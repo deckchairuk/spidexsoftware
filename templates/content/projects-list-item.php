@@ -1,24 +1,54 @@
-<div class="project--list-item list-item">
+<?php 
+	$projectHeading 		= get_field('project_heading');
+	$projectSubheading 		= get_field('project_subheading');
+	$projectColour 			= get_field('project_colour');
+	$projectFeaturedImage 	= get_field('project_overview_background_image');
+
+	$clientName 			= get_field('client_name');
+	$clientLogo 			= get_field('client_logo');
+	$clientSector			= get_field('client_sector');
+	$clientWebsite			= get_field('client_website');
+?>
+
+<?php if ($projectColour): ?>
+	<style>
+		.hero:before {
+			background-color: <?= $projectColour; ?>;
+		}
+	</style>
+<?php else: ?>	
+	<style>
+		.hero:before {
+			background-color: #2f409f;
+		}
+	</style>
+<?php endif ?>
+
+<div class="hero hero--project" style="background-image: url(<?= $projectFeaturedImage; ?>">
 	<div class="container">
 
 		<div class="row">
-			<div class="col-12-xs col-md-7">
-				<h2>Return on CMMS investment within six months</h2>
+			<div class="col-12 col-lg-9">
+				<div class="hero__inner">
+					<h1><?= $projectHeading; ?></h1>
 
-				<p>Long-established, high-volume supplier of packaged vegetables to supermarket chains, wholesalers, caterers and food-service operations.</p>
+					<p><?= $projectSubheading; ?></p>
 
-				<a href="<?php the_permalink(); ?>" class="button button--primary">How we helped Huntapac</a>
+					<a href="<?php the_permalink(); ?>" class="button button--primary">How we helped <?= $clientName; ?></a>
+				</div>
 			</div>
 
-			<div class="col-12-xs offset-md-1 col-md-4">
-				<div class="project-id">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/dev/huntapac.png" alt="">
+			<div class="col-12 col-lg-3">
+				<div class="project-id hero__inner">
+					<a href="<?= $clientWebsite; ?>">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/dev/huntapac.png" alt="">
+					</a>
 
 					<h5>Client</h5>
-					<p>Huntapca</p>
+					<p><?= $clientName; ?></p>
 
 					<h5>Sector</h5>
-					<p>Food manufacturing</p>
+					<p><?= $clientSector; ?></p>
 				</div>
 			</div>
 		</div>
