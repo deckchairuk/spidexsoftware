@@ -3,10 +3,10 @@
 
 @font-face {
 	font-family:"icons";
-	src:url("../fonts/icons.eot?b5e0897dd96603f694a9efdf6c7212f3");
+	src:url("../fonts/icons.eot?29eae9e73ecabddfda0dfea5ceffd341");
 	src:url("../fonts/icons.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/icons.woff?b5e0897dd96603f694a9efdf6c7212f3") format("woff"),
-		url("../fonts/icons.ttf?b5e0897dd96603f694a9efdf6c7212f3") format("truetype");
+		url("../fonts/icons.woff?29eae9e73ecabddfda0dfea5ceffd341") format("woff"),
+		url("../fonts/icons.ttf?29eae9e73ecabddfda0dfea5ceffd341") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -37,6 +37,16 @@
 }
 
 
-.icon_lock:before {
+.icon_linkedin:before {
 	content:"\f102";
+}
+
+
+.icon_lock:before {
+	content:"\f103";
+}
+
+
+.icon_twitter:before {
+	content:"\f104";
 }

@@ -1,0 +1,65 @@
+.project--list-item {
+	background-color: #451862; 
+
+	h2 {
+		font-size: 48px;
+		line-height: 56px;  
+		color: #FFF;
+		margin-top: 0;
+	}
+
+	p {
+		font-size: 24px;
+		line-height: 32px;  
+		color: #FFF;
+	}
+
+	button {
+		margin-top: 12px; 
+	}
+}
+
+.hero--project {
+	h1 {
+		color: #FFF;
+		margin-top: 0;
+		margin-bottom: $spacer--xl; 
+	}
+
+	p {
+		font-size: 24px;
+		line-height: 32px;  
+		color: #FFF;
+	}
+}
+
+.project-id {
+	background-color: #fff;
+	padding: 28px; 
+	margin-top: 30px;
+	box-shadow: 2.5px 4.33px 5.94px 0.06px rgba(0, 0, 0, 0.4);
+
+	@include media-breakpoint-up(lg) {
+		float: left;
+		margin-top: 150px; 
+		
+		.list-item & {
+			margin-top: 0;
+		}
+	}
+
+	h5, p {
+		font-size: 18px;
+		font-weight: 400;  
+		margin-top: 26px; 
+		margin-bottom: 0; 
+		line-height: 18px; 
+	}
+
+	p {
+		margin-top: 0;
+		margin-bottom: 0;
+		color: #757575;  
+		line-height: 22px; 
+	}
+}

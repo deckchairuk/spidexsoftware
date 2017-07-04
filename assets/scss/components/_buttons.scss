@@ -1,11 +1,12 @@
 .button {
-	padding: 16px 20px; 
+	padding: 13px 20px; 
+	display: inline-block;
 	color: #FFF;
 	border-radius: 3px; 
 	transition: all 200ms;
   	box-shadow: 1px 1.732px 2.97px 0.03px rgba(0, 0, 0, 0.4);
 	
-	&:hover {
+	&:hover, &:visited, &:active {
 		color: #fff; 
 		text-decoration: none;
 	}

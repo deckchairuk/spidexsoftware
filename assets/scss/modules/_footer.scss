@@ -1,0 +1,76 @@
+.footer {
+	background-color: #282828; 
+	color: #a4a4a4;
+	padding: $spacer--lg 0; 
+	
+	a {
+		color: #a4a4a4;
+	}
+
+	.contact__phone, .contact__email {
+		display: flex;
+		flex-wrap: wrap;
+		color: #FFF;
+		
+		span {
+			flex: 0 0 30%;
+			color: #a4a4a4; 
+		}
+	}
+
+	.location {
+		p {
+			margin-top: 18px;  
+			a {
+				color: $colour-main--first;
+			}
+		}
+	}
+
+	.about {
+		p {
+			margin-top: 18px;  
+			a {
+				color: $colour-main--first;
+			}
+		}
+	}
+
+	.social {
+		font-size: 14px; 
+	
+		span {
+			vertical-align: super;
+			font-size: 18px;
+			color: #FFF; 
+			font-weight: 600; 
+		}
+
+		.icon {
+			margin-bottom: 14px;
+			margin-right: 14px; 
+			 
+			&::before {
+				font-size: 38px; 
+				color: #fff;
+			}
+			 
+			&.icon_twitter {
+				&::before {
+					color: #0c9dd5; 
+				}
+			}  
+		}
+	}
+}
+
+.legal {
+	background-color: #1a1a1a; 
+	padding: $spacer--sm 0; 
+	
+	span, a, li {
+		color: #fff;
+		font-size: 14px; 
+		line-height: 16px; 
+	}
+}

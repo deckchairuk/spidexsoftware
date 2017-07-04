@@ -4,6 +4,7 @@
 	<?php if ( $projects->have_posts() ) : ?>
 	    <?php while ( $projects->have_posts() ) : $projects->the_post(); ?>
 			<?php get_template_part('templates/content/projects', 'list-item'); ?>
+			<?php get_template_part('templates/content/projects', 'list-item'); ?>
 	    <?php endwhile; ?>
 
 	<?php else:  ?>

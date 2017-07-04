@@ -70,7 +70,7 @@ ul.navigation {
 				 
 				&:after {
 					@extend .icon;
-					content: "\f102";
+					content: "\f103";
 					color: #f68f1e;
 					font-size: 12px;
 					margin-left: 8px; 
@@ -109,4 +109,14 @@ ul.navigation {
 			transform: rotate(180deg);
 		}
 	}
+}
+
+.navigation--legal {
+	li {
+		margin-right: 24px;
+	}
+	
+	&:last-child {
+		margin-right: 0; 
+	} 
 }

@@ -1,0 +1,36 @@
+.panel {
+	padding: $spacer--xl 0;
+	
+	* > :first-child {
+		margin-top: 0; 
+	}
+
+	* > :last-child {
+		margin-bottom: 0; 
+	}
+
+	&--grey {
+		background-color: #2f2f2f; 
+		color: #c2c2c2; 
+
+		h1, h2, h3, h4, h5, h6 {
+			color: #FFF;
+		}
+	}
+
+	&--light-grey {
+		background-color: #efefef; 
+	}
+
+	&--white {
+		background-color: #fff; 
+	}
+
+	&--orange {
+		background-color: #f28c00; 
+
+		h1, h2, h3, h4, h5, h6 {
+			color: #FFF;
+		}
+	}
+}
