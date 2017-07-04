@@ -12,13 +12,13 @@
 
 <?php if ($projectColour): ?>
 	<style>
-		.hero:before {
+		.hero--project:before {
 			background-color: <?= $projectColour; ?>;
 		}
 	</style>
 <?php else: ?>	
 	<style>
-		.hero:before {
+		.hero--project:before {
 			background-color: #2f409f;
 		}
 	</style>
