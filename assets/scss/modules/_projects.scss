@@ -30,7 +30,7 @@
 	}
 
 	p {
-		color: #FFF;
+		color: #c2c2c2;
 		@extend .h4;
 	}
 }
@@ -40,9 +40,9 @@
 	padding: 28px; 
 	margin-top: 30px;
 	box-shadow: 2.5px 4.33px 5.94px 0.06px rgba(0, 0, 0, 0.4);
+	float: left;
 
-	@include media-breakpoint-up(md) {
-		float: left;
+	@include media-breakpoint-up(lg) {
 		margin-top: 150px; 
 		
 		.list-item & {

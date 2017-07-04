@@ -2,7 +2,7 @@
 			<div class="container">
 
 				<div class="row">
-					<div class="col-xs-12 col-md-4 col-xl-3">
+					<div class="col-12 col-md-6 col-xl-3">
 						<div class="location">
 							<p class="no-margin">
 								Spidex Software Ltd, <br>
@@ -17,7 +17,7 @@
 						</div>
 					</div>
 
-					<div class="col-xs-12 col-md-4 col-xl-3">
+					<div class="col-12 col-md-6 col-xl-3">
 						<div class="contact">
 							<div class="contact__phone"><span>Call</span> (0)1675 620 572</div>
 
@@ -29,7 +29,7 @@
 						</div>
 					</div>
 
-					<div class="col-xs-12 col-md-4 offset-xl-3 col-xl-3">
+					<div class="col-12 col-md-12 offset-xl-3 col-xl-3">
 						<div class="social">
 							<div class="twitter">
 								<i class="icon icon_twitter"></i> <a href="<?php the_field('twitter', 'option'); ?>"><span>Follow us on Twitter</span></a>
@@ -50,11 +50,11 @@
 			<div class="container">
 
 				<div class="row">
-					<div class="col-xs-12 col-md-2">
+					<div class="col-12 col-md-2">
 						<span class="copyright">© Spidex Software</span>
 					</div>
 
-					<div class="col-xs-12 col-md-4">
+					<div class="col-12 col-md-4">
 						<?php navigation('legal'); ?>
 					</div>
 				</div>						

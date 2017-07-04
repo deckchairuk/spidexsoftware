@@ -8,7 +8,7 @@
 	}
 
 	.contact {
-		@include media-breakpoint-down(md) {
+		@include media-breakpoint-down(sm) {
 			margin: 24px 0; 
 		}
 
@@ -45,7 +45,11 @@
 
 	.social {
 		font-size: 14px; 
-	
+		
+		@include media-breakpoint-between(sm, lg) {
+			margin-top: 24px; 
+		}
+
 		span {
 			vertical-align: super;
 			font-size: 18px;
