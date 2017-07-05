@@ -2,10 +2,11 @@
 
 	<!-- Project listing -->
 	<?php if ( $projects->have_posts() ) : ?>
-	    <?php while ( $projects->have_posts() ) : $projects->the_post(); ?>
-			<?php get_template_part('templates/content/projects', 'list-item'); ?>
-	    <?php endwhile; ?>
-
+		<div class="projects-list">
+		    <?php while ( $projects->have_posts() ) : $projects->the_post(); ?>
+				<?php get_template_part('templates/content/projects', 'list-item'); ?>
+		    <?php endwhile; ?>
+		</div>
 	<?php else:  ?>
 		There are no projects to display
 	<?php endif; ?>

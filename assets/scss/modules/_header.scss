@@ -1,6 +1,6 @@
 .header {
 	background-color: #FFF; 
-	z-index: 1;
+	z-index: 10;
 	
 	* {
 		transition: all 500ms;
@@ -101,10 +101,8 @@ body.themed-header {
 	.header {
 		background-color: transparent; 
 		position: fixed;
-		top: -150px;
 		left: 0;
 		right: 0;
-		margin-top: 150px;
 		
 		&.shrink {
 			background-color: #4b4b4b;

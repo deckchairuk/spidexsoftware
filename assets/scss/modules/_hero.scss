@@ -18,9 +18,9 @@
 	@include media-breakpoint-down(sm) {
 		padding: $spacer--ml 0; 
 	}
-	
-	&__inner {
-		padding-top: 150px; 
+
+	.container {
+		padding-top: 150px;
 	}
 }
 
@@ -32,19 +32,30 @@
 	background: linear-gradient(to bottom, #14415d 0%,#0f3146 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14415d', endColorstr='#0f3146',GradientType=0 ); /* IE6-9 */
 	
+	h1, p, a, .button {
+		z-index: 2; 
+		position: relative;
+	}
+
 	h1 {
-		font-size: 60px; 
-		line-height: 80px; 
-		padding: 0 0 70px 0; 
+		padding: 0 0 50px 0; 
 		margin: 0; 
 		color: #FFF;
 	}
 
 	p {
-		font-size: 24px;
-		line-height: 38px; 
-		padding: 0 0 60px 0; 
+		@extend .h4;
+		padding: 0 0 120px 0; 
 		margin: 0;
 		color: #c2c2c2; 
+	}
+
+	canvas {
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    top: 50px;
+	    z-index: 0; 
 	}
 }

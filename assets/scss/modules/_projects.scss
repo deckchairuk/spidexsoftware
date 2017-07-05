@@ -19,6 +19,13 @@
 }
 
 .hero--project {
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&:before {
+		background-color: #2f409f;
+	}
+
 	h1 {
 		color: #FFF;
 		margin-top: 0;
@@ -35,6 +42,10 @@
 	}
 }
 
+.projects-list .hero .container {
+	padding-top: 0;
+}
+
 .project-id {
 	background-color: #fff;
 	padding: 28px; 
@@ -43,11 +54,7 @@
 	float: left;
 
 	@include media-breakpoint-up(lg) {
-		margin-top: 150px; 
-		
-		.list-item & {
-			margin-top: 0;
-		}
+		margin-top: 12px;
 	}
 
 	h5, p {

@@ -1,5 +1,7 @@
 <?php 
-	$projectHeading 		= get_field('project_heading');
+   	global $post;
+	$projectHeading 		= get_the_title();
+	$projectSlug 			= $post->post_name;
 	$projectSubheading 		= get_field('project_subheading');
 	$projectColour 			= get_field('project_colour');
 	$projectFeaturedImage 	= get_field('project_overview_background_image');
@@ -12,36 +14,32 @@
 
 <?php if ($projectColour): ?>
 	<style>
-		.hero--project:before {
+		.<?= $projectSlug; ?>.hero--project:before {
 			background-color: <?= $projectColour; ?>;
-		}
-	</style>
-<?php else: ?>	
-	<style>
-		.hero--project:before {
-			background-color: #2f409f;
 		}
 	</style>
 <?php endif ?>
 
-<div class="hero hero--project" style="background-image: url(<?= $projectFeaturedImage; ?>">
+<div class="hero hero--project <?= $projectSlug; ?>" style="background-image: url(<?= $projectFeaturedImage; ?>">
 	<div class="container">
 
 		<div class="row">
-			<div class="col-12 col-lg-9">
+			<div class="col-12 <?= is_singular('projects') ? 'col-lg-9' : 'col-lg-8'; ?>">
 				<div class="hero__inner">
 					<h1><?= $projectHeading; ?></h1>
 
 					<p><?= $projectSubheading; ?></p>
 
-					<a href="<?php the_permalink(); ?>" class="button button--primary">How we helped <?= $clientName; ?></a>
+					<?php if (!is_singular('projects')): ?>
+						<a href="<?php the_permalink(); ?>" class="button button--primary">How we helped <?= $clientName; ?></a>
+					<?php endif ?>
 				</div>
 			</div>
 
-			<div class="col-12 col-lg-3">
+			<div class="col-12 <?= is_singular('projects') ? 'col-lg-3' : 'offset-lg-1 col-lg-3'; ?>">
 				<div class="project-id hero__inner">
 					<a href="<?= $clientWebsite; ?>">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/dev/huntapac.png" alt="">
+						<img src="<?= $clientLogo; ?>" alt="">
 					</a>
 
 					<h5>Client</h5>

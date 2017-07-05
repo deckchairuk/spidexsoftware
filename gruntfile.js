@@ -50,7 +50,11 @@ module.exports = function(grunt) {
         local: {
           files: {
             'assets/js/min/main.min.js': 'assets/js/main.js',
-            'assets/js/min/vendor.min.js': 'assets/js/vendor/*.js'
+            'assets/js/min/vendor.min.js': 'assets/js/vendor/*.js',
+            'assets/js/min/three.animate.min.js': 'assets/js/three.animate.js',
+            'assets/js/min/three.canvas-renderer.min.js': 'assets/js/three.canvas-renderer.js',
+            'assets/js/min/three.min.js': 'assets/js/three.js',
+            'assets/js/min/three.projector.min.js': 'assets/js/three.projector.js'
           }
         }
       },
