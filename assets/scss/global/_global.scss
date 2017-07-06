@@ -1,5 +1,10 @@
 body {
 	min-width: 320px; 
+	
+	&.mobile-nav-open {
+		overflow: hidden;
+		height: 100%; 
+	}
 }
 
 .title {

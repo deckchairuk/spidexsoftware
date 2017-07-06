@@ -8,9 +8,17 @@ ul.navigation {
 	}
 }
 
-.navigation.navigation--main {
+.main-nav .navigation.navigation--main {
 	padding-left: 10px;
  	margin-right: auto;
+
+	.header__inner & {
+		display: none;
+		
+		@include media-breakpoint-up(md) {
+			display: block;
+		}
+	}
 
 	li {
 		margin-right: 28px;
@@ -22,10 +30,10 @@ ul.navigation {
 	}
 
 	@include media-breakpoint-up(md) {
-		padding-left: 50px;
+		padding-left: 42px;
 		
 		li {
-			margin-right: 20px;
+			margin-right: 16px;
 		}
 	}
 
@@ -43,11 +51,14 @@ ul.navigation {
 	overflow: hidden;
 	
 	.support-nav--open & {
-		padding: 18px; 
+		padding: 18px 0; 
 		height: 64px; 
 
 		i {
 			transform: rotate(180deg) translateY(2px);
+			transform: translateZ(0);
+			perspective: 1000;
+			backface-visibility: hidden;
 		}
 	}
 
@@ -59,7 +70,7 @@ ul.navigation {
 			font-size: 16px; 
 			
 			&:last-child {
-		 		margin-right: 0; 
+		 		margin-right: 0!important; 
 			} 
 
 			a {
@@ -76,6 +87,27 @@ ul.navigation {
 					font-size: 12px;
 					margin-left: 8px; 
 				}
+			}
+
+
+			@include media-breakpoint-down(sm) {
+				margin-right: 8px;
+				font-size: 12px;
+				
+				&.lock {
+					margin-right: 8px;
+				}
+					  
+			}
+
+			@include media-breakpoint-down(md) {
+				margin-right: 10px;
+				font-size: 14px;
+				
+				&.lock {
+					margin-right: 10px;
+				}
+					  
 			}
 		}
 	}

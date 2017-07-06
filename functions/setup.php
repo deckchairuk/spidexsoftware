@@ -16,6 +16,8 @@ function setup() {
     // http://codex.wordpress.org/Function_Reference/add_theme_support#HTML5
     add_theme_support('html5', ['caption', 'comment-form', 'comment-list', 'gallery', 'search-form']);
 
+    add_theme_support( 'post-thumbnails' ); 
+
 }
 add_action('after_setup_theme', 'setup');
 

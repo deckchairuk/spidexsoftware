@@ -48,12 +48,30 @@
         });
     }
 
+    var mobileNavigationToggle = function() {
+        var isOpen = false;
+
+        $('.mobile-nav-toggle').click(function(){
+            if (isOpen) {
+                $('body').removeClass('mobile-nav-open');
+
+                isOpen = false;
+            } else {
+                $('body').addClass('mobile-nav-open');
+
+                isOpen = true;
+            }
+        });
+    }
+
     $(function() {
         resourceFilters();
 
         headerTransform();
 
         supportNavigationToggle();
+
+        mobileNavigationToggle();
     });
 
     $(window).scroll(function() {

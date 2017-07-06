@@ -22,8 +22,6 @@ module.exports = function(grunt) {
             proxy: 'spidexsoftware.dev',
             watchTask: true,
             notify: false,
-            open: true,
-            logLevel: 'silent',
             ghostMode: {
                 clicks: true,
                 scroll: true,
