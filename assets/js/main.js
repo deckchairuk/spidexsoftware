@@ -23,9 +23,9 @@
 
     var headerTransform = function() {
         if ($(window).scrollTop() > 1) {
-            $('header').addClass("shrink");
+            $('header, body').addClass("shrink");
         } else {
-            $('header').removeClass("shrink");
+            $('header, body').removeClass("shrink");
         }
     }
 
@@ -72,6 +72,9 @@
         supportNavigationToggle();
 
         mobileNavigationToggle();
+
+        $('.article .article__thumbnail').matchHeight();
+        $('.article .article__details').matchHeight();
     });
 
     $(window).scroll(function() {

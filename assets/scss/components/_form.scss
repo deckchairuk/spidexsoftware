@@ -1,0 +1,112 @@
+.form {
+	&__event {
+		background-color: $colour-extra--second;
+		padding: 42px;
+	}
+
+	&__contact {
+		background-color: $colour-main--first; 
+	}
+}
+
+.form .gform_wrapper {	
+	color: #FFF;
+	
+	h1, h2, h3, h4, h5, h6 {
+		color: #FFF;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0; 
+	}
+
+	.gform_title {
+		@extend .h2;
+		margin-top: 0;
+		margin-bottom: 30px 
+	}
+
+	.gsection_title {
+		@extend .h4;
+		margin: 30px 0; 
+	}
+
+	.gfield_label {
+		@extend .h5;
+		margin: 12px 0 8px 0; 
+		font-weight: 500; 
+	}
+
+	.gfield {
+		margin: 28px 0 0 0;
+		
+		textarea, input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=file]) {
+			border: 1px solid rgb(187, 208, 223);
+			border-radius: 3px;
+			box-shadow: inset 0px 3px 3px 0px rgba(0, 0, 0, 0.19);
+			max-width: 100%; 
+
+			@extend .p;
+			color: #000;
+			margin: 0;
+			padding: 10px 18px; 
+			
+			width: 70%;
+			@include media-breakpoint-down(sm) {
+				width: 100%; 
+			}
+
+			&.small {
+				width: 20%;
+				@include media-breakpoint-down(sm) {
+					width: 70%; 
+				}
+			}
+		}
+
+		textarea {
+			height: 200px; 
+		}
+
+		.gfield_description {
+			display: inline-block;
+			margin-left: 6px; 
+		}
+
+		&.hide-label {
+			margin: 42px 0;
+			 
+			.gfield_label {
+				display: none;
+			}
+		}
+	
+		.gfield_required {
+			display: none;
+		}
+	}
+
+	.gfield_radio, .gfield_checkbox {
+		li {
+			display: inline-block;
+			margin-right: 40px;
+			
+			label {
+				margin-left: 26px; 
+				vertical-align: sub;
+			}
+		}
+	}
+
+	input[type=submit] {
+		box-shadow: 1px 1.732px 2.97px 0.03px rgba(0, 0, 0, 0.4);
+		border: none;
+		@extend .button--primary;
+		
+		.form__contact & {
+			@extend .button--secondary;
+		}
+	}
+}

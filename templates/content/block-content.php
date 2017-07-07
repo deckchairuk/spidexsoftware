@@ -2,15 +2,22 @@
 	<div class="container">
 
 		<div class="row">
-			<div class="col offset-md-1 col-md-9">
+			<div class="col-12 offset-md-1 col-md-10">
 
 				<div class="content__inner">
-					<h1><?php the_title(); ?></h1>
-					<h5><?php the_date(); ?></h5>
+					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+						<?php if (is_page_template('templates/template-index-articles.php') || is_singular('articles')): ?>
+							<h4 class="page-tag"><a href="/whats-new">What's new</a></h5>
+						<?php endif; ?>
 
-					<?php the_post_thumbnail(); ?>
+						<h1 class="title"><?php the_title(); ?></h1>
 
-					<?php the_content(); ?>
+						<h6 class="date"><?php the_date(); ?></h6>
+
+						<?php the_post_thumbnail(); ?>
+
+						<?php the_content(); ?>
+					<?php endwhile; endif; ?>
 				</div>
 
 			</div>

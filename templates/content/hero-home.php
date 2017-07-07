@@ -1,4 +1,4 @@
-<div class="hero hero--home" id="animation">
+<div class="hero hero--home">
 
 	<div class="container">
 		<div class="row">
@@ -17,7 +17,8 @@
 			
 		</div>
 	</div>
-
+	
+	<div class="canvas-wrapper" id="animation"></div>
 	<script src="<?= get_template_directory_uri(); ?>/assets/js/min/three.animate.min.js" type="text/javascript"></script>
 
 </div>

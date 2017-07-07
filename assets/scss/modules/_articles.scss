@@ -1,3 +1,47 @@
+.articles {
+	padding: $spacer--md 0 $spacer--xl 0;
+
+	.article {
+		box-shadow: 2.5px 4.33px 5.94px 0.06px rgba(0, 0, 0, 0.4);
+		background-color: #FFF;
+		margin-bottom: 50px; 
+
+		&__thumbnail {
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			min-height: 200px; 
+			
+			img {
+				align-self: center
+			}
+		}
+
+		&__details {
+			padding: 36px;
+			
+			a {
+				color: #000;
+			}
+		}
+		
+		h3 {
+			margin-top: 0; 
+		}
+
+		h6.date {
+			color: #939393;
+			font-size: 18px; 
+			font-weight: 400; 
+			margin: 0;
+		}
+	}
+
+	.pagination {
+		padding-top: 76px; 
+	}
+}
+
 .page-template-template-index-articles, .single-articles {
 	background-color: #0c9dd5; 
 }

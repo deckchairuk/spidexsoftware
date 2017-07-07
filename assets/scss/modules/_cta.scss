@@ -1,7 +1,15 @@
 .cta {
 	background-color: #d6d6d6;
-	padding: $spacer--xl 0; 
+	padding: $spacer--lg 0;
+	
+	@include media-breakpoint-down(md) {
+		padding: $spacer--md 0;
+	}
 
+	@include media-breakpoint-down(sm) {
+		padding: $spacer--sm 0;
+	}
+	
 	&__inner {
 		display: block;
 		text-align: center;

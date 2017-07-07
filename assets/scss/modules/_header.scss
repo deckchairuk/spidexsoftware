@@ -43,9 +43,15 @@
 }
 
 .logo {
+
 	&__large {
 		display: block;
 		width: 225px;
+		margin-top: -30px;
+		
+		.shrink & {
+			margin-top: 0; 
+		}
 				
 		@include media-breakpoint-down(md) {
 			width: 180px;
@@ -53,6 +59,7 @@
 
 		@include media-breakpoint-down(sm) {
 			width: 80px;
+			margin-top: 0; 
 		}
 	}
 
@@ -105,9 +112,11 @@
 	}
 }
 
-body {
+.single-articles, .page-template-template-index-articles {
 	.header {
-		// background-color: #FFF; 
+		li a {
+			color: #FFF;
+		}
 	}
 }
 

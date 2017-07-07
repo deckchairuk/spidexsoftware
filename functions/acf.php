@@ -25,9 +25,7 @@ function acf_map_render() {
 
 	.acf-map {
 		width: 100%;
-		height: 400px;
-		border: #ccc solid 1px;
-		margin: 20px 0;
+		height: 500px;
 	}
 
 	/* fixes potential theme css conflict */

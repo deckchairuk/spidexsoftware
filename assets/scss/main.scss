@@ -27,12 +27,13 @@
 // Components
 	@import './components/navigation';
 	@import './components/buttons';
+	@import './components/pagination';
+	@import './components/form';
 	
 // Modules
 	@import './modules/header';
 	@import './modules/footer';
 	@import './modules/cta';
-	@import './modules/wysiwyg-block';
 	@import './modules/panel';
 	@import './modules/hero';
 	@import './modules/list-item';
@@ -41,3 +42,4 @@
 	@import './modules/quote';
 	@import './modules/content';
 	@import './modules/articles';
+	@import './modules/events';

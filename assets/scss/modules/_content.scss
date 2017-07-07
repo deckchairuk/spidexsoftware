@@ -1,6 +1,14 @@
 .content {
-	padding: $spacer--xl 0;
+	padding: $spacer--lg 0;
 	
+	@include media-breakpoint-down(md) {
+		padding: $spacer--md 0;
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: $spacer--sm 0;
+	}
+
 	&__inner > *:first-child {
 		margin-top: 0; 
 	}
@@ -13,5 +21,24 @@
 		padding: $spacer--md;
 		box-shadow: 2.5px 4.33px 5.94px 0.06px rgba(0, 0, 0, 0.4);
 		background-color: #FFF;
+	}
+
+	h4.page-tag {
+		margin: 0; 
+		a {
+			font-weight: 500;
+			color: #09C;              
+		}
+	}
+
+	h1.title {
+		margin: 24px 0 4px 0; 
+	}
+
+	h6.date {
+		color: #939393;
+		font-size: 18px; 
+		font-weight: 400; 
+		margin: 0 0 50px 0; 
 	}
 }
