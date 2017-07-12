@@ -5,19 +5,13 @@
 <?php get_template_part('head'); ?>
 
 	<?php if (is_user_logged_in()): ?>
+		<?php get_template_part('templates/content/block', 'title'); ?>
+
 		<?php get_template_part('templates/content/resources', 'list'); ?>
 	<?php else: ?>
-		<div class="login">
-			<div class="container">
+		<?php get_template_part('templates/content/block', 'title'); ?>
 
-				<div class="row">
-					<div class="col">
-						<?php frontend_login_form(); ?>
-					</div>
-				</div>
-				
-			</div>
-		</div>
+		<?php get_template_part('templates/content/resources', 'login'); ?>
 	<?php endif ?>
 
 <?php get_template_part('footer'); ?>

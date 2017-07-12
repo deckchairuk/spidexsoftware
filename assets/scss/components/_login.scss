@@ -1,0 +1,52 @@
+.login {
+	padding: 0 0 $spacer--lg 0;
+	
+	@include media-breakpoint-down(md) {
+		padding: 0 0 $spacer--md 0;
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 0 0 $spacer--sm 0;
+	}
+
+	&__inner {
+		display: block;
+		margin: auto;
+		max-width: 378px;
+		width: 100%;
+		background-color: #FFF;
+		padding: 42px 36px;
+		box-shadow: 2.5px 4.33px 5.94px 0.06px rgba(0, 0, 0, 0.4); 
+		
+		#loginform {
+			p {
+				@extend .h5;
+				margin: 0;
+				color: #000;
+				font-weight: 600; 
+				
+				&.login-username, &.login-password {
+					margin-bottom: 28px;
+				}
+			} 
+
+			label:not([type=checkbox]):not([type=radio]):not([type=file]), input:not([type=checkbox]):not([type=radio]):not([type=file]) {
+				display: block;
+				width: 100%; 
+			}
+
+			.login-remember label {
+				margin-bottom: 46px;
+				
+				input {
+					margin-right: 20px; 
+				}
+			}
+		}
+	}
+
+	p.failed {
+		color: #f6441e;
+		margin-top: 0; 
+	}
+}

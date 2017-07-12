@@ -98,6 +98,23 @@ function get_projects($post_per_page = 5) {
     return $query;
 }
 
+function get_products($post_per_page = 5) {
+    $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+
+    $args = array(
+        'post_type'         => 'products',
+        'posts_per_page'    => $post_per_page,
+        'paged'             => $paged,
+        'post_status'       => array( 'publish' ),
+        'orderby'           => 'menu_order',
+        'order'             => 'ASC',
+    );
+
+    $query = new WP_Query($args);
+
+    return $query;
+}
+
 function get_articles($post_per_page = 5) {
     $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 

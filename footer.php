@@ -50,11 +50,11 @@
 			<div class="container">
 
 				<div class="row">
-					<div class="col-4">
+					<div class="col-4 col-md-2">
 						<span class="copyright">© Spidex Software</span>
 					</div>
 
-					<div class="col-8">
+					<div class="col-8 col-md-10">
 						<?php navigation('legal'); ?>
 					</div>
 				</div>						

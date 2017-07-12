@@ -9,10 +9,10 @@ function frontend_login_form() {
 		'id_password'    => 'user_pass',
 		'id_remember'    => 'rememberme',
 		'id_submit'      => 'wp-submit',
-		'label_username' => __( 'Username or email' ),
+		'label_username' => __( 'Email' ),
 		'label_password' => __( 'Password' ),
 		'label_remember' => __( 'Remember Me' ),
-		'label_log_in'   => __( 'Log In' ),
+		'label_log_in'   => __( 'Sign In' ),
 		'value_username' => '',
 		'value_remember' => false
 	);
@@ -24,11 +24,18 @@ function frontend_login_form() {
 add_action( 'wp_login_failed', 'front_end_login_fail' );
 function front_end_login_fail( $username ) {
 	// Where the post submission came from
-   $referrer = $_SERVER['HTTP_REFERER'];
+  	$referrer = preg_replace('/\?.*/', '', $_SERVER['HTTP_REFERER']);
 
    // if there's a valid referrer, and it's not the default log-in screen
    if ( !empty($referrer) && !strstr($referrer,'wp-login') && !strstr($referrer,'wp-admin') ) {
-      wp_redirect( $referrer . '?login=failed' );
+      wp_redirect( $referrer . '?login=failed&username='.$username.'' );
       exit;
    }
 }
+
+function add_custom_query_var( $vars ){
+  $vars[] = "login";
+  $vars[] = "username";
+  return $vars;
+}
+add_filter( 'query_vars', 'add_custom_query_var' );

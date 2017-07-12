@@ -26,6 +26,11 @@ function acf_map_render() {
 	.acf-map {
 		width: 100%;
 		height: 500px;
+		
+	}
+
+	.page-template-template-contact .acf-map {
+		height: 700px;
 	}
 
 	/* fixes potential theme css conflict */
@@ -59,9 +64,10 @@ function acf_map_render() {
 		
 		// vars
 		var args = {
-			zoom		: 16,
+			zoom		: 10,
 			center		: new google.maps.LatLng(0, 0),
-			mapTypeId	: google.maps.MapTypeId.ROADMAP
+			mapTypeId	: google.maps.MapTypeId.ROADMAP,
+			scrollwheel: false,
 		};
 		
 		
@@ -168,7 +174,7 @@ function acf_map_render() {
 		{
 			// set center of map
 		    map.setCenter( bounds.getCenter() );
-		    map.setZoom( 16 );
+		    map.setZoom( 10 );
 		}
 		else
 		{

@@ -24,5 +24,4 @@
         <body <?php body_class(); ?>>
     <?php endif; ?>
 
-
     <?php get_template_part('header'); ?>

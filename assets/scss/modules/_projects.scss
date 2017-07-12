@@ -29,16 +29,20 @@
 	h1 {
 		color: #FFF;
 		margin-top: 0;
-		margin-bottom: $spacer--lg; 
+		margin-bottom: 32px;
+		font-size: 48px;
+		line-height: 54px; 		
 		
 		@include media-breakpoint-down(md) {
-			margin-bottom: $spacer--md;  
+			font-size: 30px;
+			line-height: 40px;
 		}
 	}
 
 	p {
-		color: #c2c2c2;
+		color: #FFF;
 		@extend .h4;
+		margin: 26px 0;
 	}
 }
 

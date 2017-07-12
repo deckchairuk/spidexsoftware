@@ -1,0 +1,81 @@
+.product-feature {
+	overflow: hidden;
+
+	h2, p {
+		color: #FFF;
+	}
+
+	&__details {
+		
+	}
+
+	&__image {
+		position: relative;
+		
+		@include media-breakpoint-up(md) {
+			img {
+				position: absolute;
+				top: 0;
+				max-width: none; 
+			}
+		}
+	}
+
+	// Odd
+	&:nth-child(odd) {
+		.details {	
+			order: 1;
+		}
+
+		.image {
+			order: 2;
+		}
+
+		.product-feature__details {
+			margin-right: 0;
+			
+			@include media-breakpoint-up(md) {
+				margin-right: 34px; 
+			}
+		}
+
+		.product-feature__image {
+			img {
+				margin-top: 24px; 
+				
+				@include media-breakpoint-up(md) {
+					left: 0; 
+				}
+			}
+		}
+	}
+
+	// Even
+	&:nth-child(even) {
+		.details {	
+			order: 2;
+		}
+
+		.image {
+			order: 1;
+		}
+
+		.product-feature__details {
+			margin-left: 0;
+			
+			@include media-breakpoint-up(md) {
+				margin-left: 34px; 
+			}
+		}
+
+		.product-feature__image {
+			img {
+				margin-bottom: 24px; 
+				
+				@include media-breakpoint-up(md) {
+					right: 0; 
+				}
+			}
+		}	
+	}
+}

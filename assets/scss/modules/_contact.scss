@@ -1,0 +1,55 @@
+.form__contact {
+	padding: $spacer--lg 0;
+	
+	@include media-breakpoint-down(md) {
+		padding: $spacer--md 0;
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: $spacer--sm 0;
+	}	
+}
+
+.contact-details {
+	p {
+		font-weight: 600;
+		margin: 0 0 10px 0;
+		color: #2e2e2e; 
+	}
+
+	i {
+		margin-right: 8px; 
+		vertical-align: bottom;
+	}
+
+	&--sales {
+		h3, i {
+			color: $colour-main--first;
+		}
+	}
+
+	&--support {
+		h3, i {
+			color: $colour-accent--first;
+		}
+	}
+
+	&--address {
+		padding-top: 44px;
+		
+		i {
+			vertical-align: inherit;
+			color: $colour-main--first;
+		} 
+
+		p {
+			font-size: 15px; 
+			font-weight: 400; 
+			
+			a {
+				font-weight: 500;
+				color: #0C9DD5;
+			}
+		} 
+	}
+}

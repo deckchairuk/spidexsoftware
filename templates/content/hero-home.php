@@ -1,3 +1,10 @@
+<?php 
+	$heading = get_field('heading');
+	$subheading = get_field('subheading');
+	$buttonText = get_field('button_text');
+	$buttonLink = get_field('button_link');
+?>
+
 <div class="hero hero--home">
 
 	<div class="container">
@@ -6,11 +13,11 @@
 			<div class="col">
 				<div class="hero__inner">
 					
-					<h1>Improve performance with Mainsaver CMMS from Spidex</h1>
+					<h1><?= $heading ?></h1>
 
-					<p>Spidex helps engineering maintenance departments across the UK & Ireland to improve their performance. Click on the buttons above to find out how we could help you.</p>
+					<?= $subheading ?>
 
-					<a href="/your-project" class="button button--tertiary">How can we help with your project?</a>
+					<a href="<?= $buttonLink ?>" class="button button--tertiary"><?= $buttonText ?></a>
 
 				</div>
 			</div>

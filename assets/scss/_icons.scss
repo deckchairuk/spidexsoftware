@@ -3,10 +3,10 @@
 
 @font-face {
 	font-family:"icons";
-	src:url("../fonts/icons.eot?9aa0ad7c4da3213496492e9432bd674e");
+	src:url("../fonts/icons.eot?c1e73669f14e36bbc4f2cc32bce99070");
 	src:url("../fonts/icons.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/icons.woff?9aa0ad7c4da3213496492e9432bd674e") format("woff"),
-		url("../fonts/icons.ttf?9aa0ad7c4da3213496492e9432bd674e") format("truetype");
+		url("../fonts/icons.woff?c1e73669f14e36bbc4f2cc32bce99070") format("woff"),
+		url("../fonts/icons.ttf?c1e73669f14e36bbc4f2cc32bce99070") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -47,26 +47,46 @@
 }
 
 
-.icon_linkedin:before {
+.icon_error-sign:before {
 	content:"\f104";
 }
 
 
-.icon_lock:before {
+.icon_letter:before {
 	content:"\f105";
 }
 
 
-.icon_map-marker:before {
+.icon_linkedin:before {
 	content:"\f106";
 }
 
 
-.icon_tag:before {
+.icon_lock:before {
 	content:"\f107";
 }
 
 
-.icon_twitter:before {
+.icon_map-marker:before {
 	content:"\f108";
+}
+
+
+.icon_phone:before {
+	content:"\f109";
+}
+
+
+.icon_tag:before {
+	content:"\f10a";
+}
+
+
+.icon_tick:before {
+	content:"\f10b";
+}
+
+
+.icon_twitter:before {
+	content:"\f10c";
 }

@@ -7,13 +7,15 @@ body {
 	}
 
 	&.shrink {
-		padding-top: 95px; 
+		.page-title, .what-we-do-intro, .single {
+			padding-top: 95px; 
+		}
 	}
 }
 
 .page-title {
 	text-align: center;
-	padding: $spacer--lg 0;
+	padding: $spacer--md 0 $spacer--lg 0;
 	
 	@include media-breakpoint-down(md) {
 		padding: $spacer--md 0;

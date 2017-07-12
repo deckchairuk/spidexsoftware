@@ -98,13 +98,13 @@ ul.navigation {
 				 
 				&:after {
 					@extend .icon;
-					content: "\f103";
+					@extend .icon_lock:before;
 					color: #f68f1e;
 					font-size: 12px;
 					margin-left: 8px; 
 				}
 			}
-	
+
 			&.current-menu-item {
 				a {
 					border-bottom: 1px solid #fff;
