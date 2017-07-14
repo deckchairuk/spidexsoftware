@@ -1,4 +1,4 @@
-<?php $events = get_events(2); ?>
+<?php $events = get_events(-1); ?>
 
 	<!-- Event listing -->
 	<?php if ( $events->have_posts() ) : ?>

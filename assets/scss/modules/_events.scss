@@ -1,4 +1,14 @@
 .events {
+	padding: 0 0 $spacer--sm 0;
+	
+	@include media-breakpoint-down(md) {
+		padding: 0 0 $spacer--sm 0;
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 0 0 $spacer--sm 0;
+	}	
+
 	.event {
 		display: flex;
 		justify-content: space-between;
@@ -7,6 +17,12 @@
 		
 		&:last-child {
 			border-bottom: none; 
+		}
+
+		&:hover {
+			.event__link a {
+				color: #0c9dd5;
+			}
 		}
 
 		h5 {
@@ -36,6 +52,10 @@
 			
 			h5 {
 				float: right;
+			}
+
+			a {
+				transition: color 200ms;
 			}
 		}
 

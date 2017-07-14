@@ -42,6 +42,10 @@ function get_resources($post_per_page = 5) {
     if (isset($querySearch) && $querySearch) {
         $args = array(
             's' => $querySearch,
+            'post_type'         => 'resources',
+            'posts_per_page'    => $post_per_page,
+            'paged'             => $paged,
+            'post_status'       => array( 'publish' ),
         );
     }
 
@@ -76,6 +80,17 @@ function get_events($post_per_page = 5) {
         'posts_per_page'    => $post_per_page,
         'paged'             => $paged,
         'post_status'       => array( 'publish' ),
+        'meta_key'          => 'start_date',
+        'orderby'           => 'meta_value_num',
+        'order'             => 'ASC',
+        'meta_query'        => array(
+            array(
+                'key' => 'end_date',
+                'value' => date("Y-m-d"),
+                'compare' => '>=',
+                'type' => 'DATE'
+            )
+        )
     );
 
     $query = new WP_Query($args);

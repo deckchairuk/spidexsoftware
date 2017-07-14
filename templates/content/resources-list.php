@@ -3,7 +3,7 @@
 
 		<div class="row">
 			<div class="col">
-				<?php $resources = get_resources(2); ?>
+				<?php $resources = get_resources(6); ?>
 					
 					<!-- Filters -->
 					<form action="" class="filters filters--resource" method="get">
@@ -17,18 +17,25 @@
 							<?php endforeach ?>
 						</select>
 
-						<input type="submit">
+						<input type="submit" value="Search">
+
+						<?php if ($_GET): ?>
+							<a href="<?php the_permalink(); ?>" class="button button--primary reset">Reset</a>
+						<?php endif ?>
 					</form>
 
 					<!-- Resource listing -->
+					<div class="resources">
 					<?php if ( $resources->have_posts() ) : ?>
 					    <?php while ( $resources->have_posts() ) : $resources->the_post(); ?>
 							<?php get_template_part('templates/content/resources', 'list-item'); ?>
 					    <?php endwhile; ?>
-
 					<?php else:  ?>
-						There are no resources to display
+						<div class="resource no-results">
+							<p>Sorry, we couldn't find any resources. Please <a href="/contact">get in touch</a> if you feel something is missing.</p>
+						</div>
 					<?php endif; ?>
+					</div>
 
 				<?php pagination($resources->max_num_pages); ?>
 				<?php wp_reset_postdata(); ?>

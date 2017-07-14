@@ -6,10 +6,10 @@ var particles, particle, count = 0;
 
 var mouseX = 0, mouseY = 0;
 
-var windowHalfX = window.innerWidth / 2;
+var windowHalfX = document.body.clientWidth / 2;
 var windowHalfY = 1000 / 2;
 
-var windowX = window.innerWidth / 2;
+var windowX = document.body.clientWidth / 2;
 var windowY = 1000 / 2;
 
 init();
@@ -20,7 +20,7 @@ function init() {
 	container = document.getElementById('animation');
 	// document.body.appendChild( container );
 
-	camera = new THREE.PerspectiveCamera( 165, window.innerWidth / 1000, 1, 1200 );
+	camera = new THREE.PerspectiveCamera( 165, document.body.clientWidth / 1000, 1, 1200 );
 	camera.position.z = 10000;
 
 	scene = new THREE.Scene();
@@ -58,24 +58,25 @@ function init() {
 
 	renderer = new THREE.CanvasRenderer({ alpha: true });
 	renderer.setPixelRatio( window.devicePixelRatio );
-	renderer.setSize( window.innerWidth, 1000 );
+	renderer.setSize( document.body.clientWidth, 1000 );
 	container.appendChild( renderer.domElement );
 
 	//
 
 	window.addEventListener( 'resize', onWindowResize, false );
 
+	onWindowResize();
 }
 
 function onWindowResize() {
 
-	windowHalfX = window.innerWidth / 2;
+	windowHalfX = document.body.clientWidth / 2;
 	windowHalfY = 1000 / 2;
 
-	camera.aspect = window.innerWidth / 1000;
+	camera.aspect = document.body.clientWidth / 1000;
 	camera.updateProjectionMatrix();
 
-	renderer.setSize( window.innerWidth, 1000 );
+	renderer.setSize( document.body.clientWidth, 1000 );
 
 }
 

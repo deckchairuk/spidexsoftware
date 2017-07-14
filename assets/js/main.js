@@ -13,7 +13,9 @@
 
     var resourceFilters = function() {
     	// Initialise select2
-    	$('.filters--resource .tag').select2();
+    	$('.filters--resource .tag').select2({
+            width: 'resolve'
+        });
 
     	// Set value of select to previously selected value (if exists)
     	$tagQS = getUrlVars()["tag"]
@@ -64,6 +66,26 @@
         });
     }
 
+    var formVisualValidation = function() {
+        $('.gfield_contains_required input').prop('required', 'true');
+
+        $('input, textarea').not('[type=checkbox], [type=radio], [type=submit], [type=file], [type=hidden]').on('focusout', function(){
+
+            if ($(this).attr('aria-required') || $(this).prop('required')) {
+                var hasValue = $(this).val();
+
+                $(this).next('i.icon').remove();
+
+                if(!hasValue) {
+                    $(this).after('<i class="icon icon_error-sign"></i>');
+                } else if(hasValue) {
+                    $(this).after('<i class="icon icon_tick"></i>');
+
+                }
+            }
+        });
+    }
+
     $(function() {
         resourceFilters();
 
@@ -72,6 +94,8 @@
         supportNavigationToggle();
 
         mobileNavigationToggle();
+
+        formVisualValidation();
 
         $('.article .article__thumbnail').matchHeight();
         $('.article .article__details').matchHeight();

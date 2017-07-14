@@ -80,7 +80,7 @@
 		}
 	}
 
-	.gfield textarea, .gfield input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=file]), textarea, input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=file]) {
+	.gfield textarea, .gfield input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=file]), textarea, input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=file]), select {
 		border: 1px solid rgb(187, 208, 223);
 		border-radius: 3px;
 		box-shadow: inset 0px 3px 3px 0px rgba(0, 0, 0, 0.19);
@@ -111,6 +111,7 @@
 	input[type=submit] {
 		box-shadow: 1px 1.732px 2.97px 0.03px rgba(0, 0, 0, 0.4);
 		border: none;
+		@extend .button;
 		@extend .button--primary;
 		
 		.form.form__contact .gform_wrapper & {
