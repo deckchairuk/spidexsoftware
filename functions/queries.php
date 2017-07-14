@@ -31,14 +31,10 @@ function get_example($post_per_page = 5, $example_meta_value) {
 function get_resources($post_per_page = 5) {
     $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 
-    $args = array(
-        'post_type'         => 'resources',
-        'posts_per_page'    => $post_per_page,
-        'paged'             => $paged,
-        'post_status'       => array( 'publish' ),
-    );
-
     $querySearch = get_query_var('search');
+    $queryTag = get_query_var('tag');
+
+
     if (isset($querySearch) && $querySearch) {
         $args = array(
             's' => $querySearch,
@@ -47,9 +43,15 @@ function get_resources($post_per_page = 5) {
             'paged'             => $paged,
             'post_status'       => array( 'publish' ),
         );
+    } else {
+        $args = array(
+            'post_type'         => 'resources',
+            'posts_per_page'    => $post_per_page,
+            'paged'             => $paged,
+            'post_status'       => array( 'publish' ),
+        );
     }
 
-    $queryTag = get_query_var('tag');
     if (isset($queryTag) && $queryTag) {
         $args['tax_query'][] = array(
             'taxonomy' => 'post_tag',

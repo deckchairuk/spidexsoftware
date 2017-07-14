@@ -1,4 +1,13 @@
 (function($) {
+    function slugify(text) {
+      return text.toString().toLowerCase()
+        .replace(/\s+/g, '-')           // Replace spaces with -
+        .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+        .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+        .replace(/^-+/, '')             // Trim - from start of text
+        .replace(/-+$/, '');            // Trim - from end of text
+    }
+
     function getUrlVars() {
         var vars = [], hash;
         var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
@@ -86,8 +95,40 @@
         });
     }
 
+    var resourceAjaxFilters = function() {
+        $('form.filters input[type=submit]').click(function(e) {
+            e.preventDefault();
+
+            var searchParam = $('form.filters input.search').val(),
+                tagParam    = $('form.filters .select2-selection__rendered').attr('title'),
+                tagParam    = slugify(tagParam),
+                currentUrl  = [location.protocol, '//', location.host, location.pathname].join(''),
+                loadUrl     = currentUrl + '?search=' + searchParam;
+
+            // Check if tag has been selected
+            if (tagParam != 'any') {
+                var loadUrl     = loadUrl + '&tag=' + tagParam;
+            }
+
+            $('#resource-list').load( loadUrl + ' #resource-list' );
+            $('.reset').show();
+
+        });
+        
+        // $('.reset').click(function(e) {
+        //     e.preventDefault();
+
+        //     var currentUrl = [location.protocol, '//', location.host, location.pathname].join('');
+
+        //     $('#resource-list').load( currentUrl + ' #resource-list' );
+        //     $('.reset').hide();
+
+        // });
+    }
+
     $(function() {
         resourceFilters();
+        resourceAjaxFilters();
 
         headerTransform();
 
