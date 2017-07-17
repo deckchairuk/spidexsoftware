@@ -1,4 +1,4 @@
-<?php $projects = get_projects(2); ?>
+<?php $projects = get_projects(-1); ?>
 
 	<!-- Project listing -->
 	<?php if ( $projects->have_posts() ) : ?>

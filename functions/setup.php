@@ -27,13 +27,13 @@ function scripts_styles() {
     // Scripts
     wp_enqueue_script('jquery');
     wp_enqueue_script( 'vendor', get_template_directory_uri() . '/assets/js/min/vendor.min.js', array(), '1.0.0', true );
-    wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/min/main.min.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/min/main.min.js#asyncload', array(), '1.0.0', true );
 
     // Home animation
     if (is_front_page()) {
-        wp_enqueue_script( 'three-js', get_template_directory_uri() . '/assets/js/min/three.min.js', array(), '1.0.0', false );
-        wp_enqueue_script( 'three-js-projector', get_template_directory_uri() . '/assets/js/min/three.projector.min.js', array(), '1.0.0', false );
-        wp_enqueue_script( 'three-js-canvas-renderer', get_template_directory_uri() . '/assets/js/min/three.canvas-renderer.min.js', array(), '1.0.0', false );
+        wp_enqueue_script( 'three-js', get_template_directory_uri() . '/assets/js/min/three.min.js#asyncload', array(), '1.0.0', false );
+        wp_enqueue_script( 'three-js-projector', get_template_directory_uri() . '/assets/js/min/three.projector.min.js#asyncload', array(), '1.0.0', false );
+        wp_enqueue_script( 'three-js-canvas-renderer', get_template_directory_uri() . '/assets/js/min/three.canvas-renderer.min.js#asyncload', array(), '1.0.0', false );
     }
 
     // Styes
@@ -44,3 +44,13 @@ function scripts_styles() {
   
 }
 add_action('wp_enqueue_scripts', 'scripts_styles', 100);
+
+function add_async_for_script($url) {
+    if (strpos($url, '#asyncload')===false)
+        return $url;
+    else if (is_admin())
+        return str_replace('#asyncload', '', $url);
+    else
+        return str_replace('#asyncload', '', $url)."' async='async"; 
+}
+add_filter('clean_url', 'add_async_for_script', 11, 1);

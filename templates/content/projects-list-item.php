@@ -31,7 +31,7 @@
 					<p><?= $projectSubheading; ?></p>
 
 					<?php if (!is_singular('projects')): ?>
-						<a href="<?php the_permalink(); ?>" class="button button--primary">How we helped <?= $clientName; ?></a>
+						<a href="<?php the_permalink(); ?>" class="button button--primary" target="_blank">How we helped <?= $clientName; ?></a>
 					<?php endif ?>
 				</div>
 			</div>

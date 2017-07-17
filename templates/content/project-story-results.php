@@ -6,7 +6,7 @@
 				<h2>Result</h2>
 
 				<?php if (have_rows('results')): ?>
-					<?php while(have_rows('results')) : the_row() : ?>
+					<?php while(have_rows('results')) : the_row(); ?>
 						<div class="result__panel">
 							<p><?php the_sub_field('result'); ?></p>
 						</div>
