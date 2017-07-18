@@ -1,4 +1,4 @@
-<?php $articles = get_articles(4); ?>
+<?php $articles = get_articles(10); ?>
 
 	<!-- Article listing -->
 	<?php if ( $articles->have_posts() ) : ?>
