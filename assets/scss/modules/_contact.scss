@@ -32,6 +32,10 @@
 		h3, i {
 			color: $colour-accent--first;
 		}
+
+		@include media-breakpoint-down(md) {
+			margin-top: 24px!important; 
+		}
 	}
 
 	&--address {

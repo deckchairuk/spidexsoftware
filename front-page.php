@@ -2,7 +2,7 @@
 
 	<?php get_template_part('templates/content/hero', 'home'); ?>
 
-	<?php get_template_part('templates/content/projects', 'list'); ?>
+	<?php get_template_part('templates/content/projects', 'list--home'); ?>
 	
 	<?php get_template_part('templates/content/cta', 'block'); ?>
 

@@ -60,7 +60,8 @@
 		}
 	
 		.gfield_required {
-			display: none;
+			// display: none;
+			margin-left: 8px; 
 		}
 
 		&.gfield_error input {
@@ -117,5 +118,28 @@
 		.form.form__contact .gform_wrapper & {
 			@extend .button--tertiary;
 		}
+	}
+}
+
+.gform_validation_error .gfield_contains_required {
+	.ginput_container {
+		position: relative;
+		
+		&:after {
+			@extend .icon;
+			@extend .icon_tick:before;
+			
+			position: absolute;
+			top: 50%; 
+			font-size: 24px;
+			margin-left: 28px;  
+			margin-top: -12px; 
+		}			
+	}
+
+	&.gfield_error {
+		.ginput_container:after {
+			@extend .icon_error-sign:before;
+		}			
 	}
 }

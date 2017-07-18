@@ -136,7 +136,7 @@
 
         mobileNavigationToggle();
 
-        formVisualValidation();
+        // formVisualValidation();
 
         $('.article .article__thumbnail').matchHeight();
         $('.article .article__details').matchHeight();
