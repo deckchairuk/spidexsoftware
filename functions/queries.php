@@ -108,6 +108,8 @@ function get_projects($post_per_page = 5) {
         'posts_per_page'    => $post_per_page,
         'paged'             => $paged,
         'post_status'       => array( 'publish' ),
+        'orderby'           => 'menu_order',
+        'order'             => 'ASC',
     );
 
     $query = new WP_Query($args);
