@@ -55,7 +55,7 @@
 					<?php endif; ?>		
 
 					<div class="form form__event">
-						<?php gravity_form( 1, $display_title = true, $display_description = true, $display_inactive = false, $field_values = null, $ajax = true, $tabindex = 0, $echo = true ); ?>
+						<?php gravity_form( 'Book event', $display_title = true, $display_description = true, $display_inactive = false, $field_values = null, $ajax = true, $tabindex = 0, $echo = true ); ?>
 					</div>					
 				</div>
 
