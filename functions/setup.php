@@ -54,3 +54,10 @@ function add_async_for_script($url) {
         return str_replace('#asyncload', '', $url)."' async='async"; 
 }
 add_filter('clean_url', 'add_async_for_script', 11, 1);
+
+function restrict_admin() {
+    if ( ! current_user_can( 'manage_options' )  && $_SERVER['PHP_SELF'] != '/wp-admin/admin-ajax.php' ) {
+        wp_redirect( home_url() );
+    }
+}
+add_action( 'admin_init', 'restrict_admin', 1 );
