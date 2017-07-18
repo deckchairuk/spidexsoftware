@@ -13,11 +13,11 @@
 		align-items: center;
 		
 		@include media-breakpoint-down(sm) {
-			height: 55px;
+			height: 65px;
 		}
 
 		.shrink & {
-			height: 55px; 
+			height: 65px; 
 		}
 	}
 
