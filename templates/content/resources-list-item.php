@@ -8,7 +8,7 @@
 <div class="resource">
 	<div class="resource__title">
 		<h5>
-			<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> 
+			<?php the_title(); ?>
 
 			<?php if ($fileMimeType): ?>
 				<span class="file-type">(<?= $fileMimeType ?>)</span>
