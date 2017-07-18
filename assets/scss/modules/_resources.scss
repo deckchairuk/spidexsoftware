@@ -7,10 +7,15 @@
 }
 
 .resources-page {
+
+	.resources-filters {
+		padding: 24px 0;
+		background-color: #000; 
+	}
+
 	form.filters--resource {
 		display: flex;
     	justify-content: flex-start;
-    	margin-bottom: 24px; 
 
 		input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=file]), .select2-selection, select {
 			max-width: 280px; 
