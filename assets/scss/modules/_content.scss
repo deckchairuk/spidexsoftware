@@ -18,9 +18,13 @@
 	}
 
 	&__inner {
-		padding: $spacer--md;
 		box-shadow: 2.5px 4.33px 5.94px 0.06px rgba(0, 0, 0, 0.4);
 		background-color: #FFF;
+		padding: $spacer--md;
+		
+		@include media-breakpoint-down(sm) {
+			padding: $spacer--md $spacer--sm;
+		}
 	}
 
 	h4.page-tag {

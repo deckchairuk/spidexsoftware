@@ -2,6 +2,10 @@
 	&__event {
 		background-color: $colour-extra--second;
 		padding: 42px;
+
+		@include media-breakpoint-down(sm) {
+			padding: 24px;
+		}
 	}
 
 	&__contact {
@@ -64,8 +68,10 @@
 			margin-left: 8px; 
 		}
 
-		&.gfield_error input {
-			border: 2px solid #db0b43!important;
+		&.gfield_error {
+			input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=file]), textarea {
+				border: 2px solid #db0b43!important;
+			}
 		}
 	}
 

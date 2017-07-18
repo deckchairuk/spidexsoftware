@@ -122,15 +122,23 @@ h6, .h6 {
 a {
   color: $link-colour;
   text-decoration: none;
+  
   &:active {
     color: $link-colour--active;
-    text-decoration: underline;
+    text-decoration: none;
   }
+
   &:visited {
     color: $link-colour--visited;
+    text-decoration: none;
   }
+
   &:hover {
     color: $link-colour--hover;
     text-decoration: underline;
+  }
+
+  &:focus {
+    text-decoration: none;
   }
 }

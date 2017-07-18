@@ -39,7 +39,7 @@
 		}
 
 		&__date {
-			flex: 5;
+			flex: 7;
 			text-align: center;
 			
 			h5 {
@@ -89,6 +89,10 @@
 	.event-details {
 		background-color: #fafafa;
 		padding: $spacer--md;
+	
+		@include media-breakpoint-down(md) {
+			padding: $spacer--md $spacer--sm;
+		}
 	}
 	 
 	.meta-rail {

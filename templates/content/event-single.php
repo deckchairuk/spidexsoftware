@@ -13,7 +13,7 @@
 	<div class="container">
 
 		<div class="row">
-			<div class="col-12 offset-md-1 col-md-10">
+			<div class="col-12 offset-lg-1 col-lg-10">
 
 				<div class="event-single__inner">
 					<div class="event-details">
