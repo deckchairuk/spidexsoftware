@@ -28,12 +28,29 @@
 		left: 0;
 		right: 0;
 		
-		li {
-			color: #fff;
-			
-			a {
+		ul.navigation {
+			li {
 				color: #fff;
-			} 
+				
+				a {
+					color: #fff;
+				} 
+
+				a:hover, a:active {
+					text-decoration: none;
+					border-bottom: 1px solid #fff !important;
+				}
+
+				&.current-menu-item {
+					a {
+						border-bottom: 1px solid #fff !important;
+						
+						&:hover {
+							text-decoration: none;
+						}
+					}
+				}			
+			}
 		}
 
 		.mobile-nav-toggle {
@@ -112,10 +129,27 @@
 	}
 }
 
-.single-articles, .page-template-template-index-articles, .page-template-template-what-we-do, .page-template-template-index-resources {
+.single-articles, .page-template-template-index-articles, .page-template-template-what-we-do, .page-template-template-index-resources, .page-template-template-home {
 	.header {
-		li a {
-			color: #FFF;
+		li {
+			a {
+				color: #FFF;
+			}
+
+			a:hover, a:active {
+					text-decoration: none;
+					border-bottom: 1px solid #fff !important;
+			}
+
+			&.current-menu-item {
+				a {
+					border-bottom: 1px solid #fff !important;
+					
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
 		}
 	}
 }
@@ -166,7 +200,11 @@ body.themed-header {
 		transition: 200ms;
 		
 		.mobile-nav-open & {
-			background-color: #14415d; 
+			background-color: #14415d!important; 
+		}
+
+		.page-template-template-what-we-do & {
+			background-color: #fff; 
 		}
 	}  
 	

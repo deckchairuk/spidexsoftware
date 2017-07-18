@@ -31,9 +31,9 @@ function scripts_styles() {
 
     // Home animation
     if (is_front_page()) {
-        wp_enqueue_script( 'three-js', get_template_directory_uri() . '/assets/js/min/three.min.js#asyncload', array(), '1.0.0', false );
-        wp_enqueue_script( 'three-js-projector', get_template_directory_uri() . '/assets/js/min/three.projector.min.js#asyncload', array(), '1.0.0', false );
-        wp_enqueue_script( 'three-js-canvas-renderer', get_template_directory_uri() . '/assets/js/min/three.canvas-renderer.min.js#asyncload', array(), '1.0.0', false );
+        wp_enqueue_script( 'three-js', get_template_directory_uri() . '/assets/js/min/three.min.js', array(), '1.0.0', false );
+        wp_enqueue_script( 'three-js-projector', get_template_directory_uri() . '/assets/js/min/three.projector.min.js', array(), '1.0.0', false );
+        wp_enqueue_script( 'three-js-canvas-renderer', get_template_directory_uri() . '/assets/js/min/three.canvas-renderer.min.js', array(), '1.0.0', false );
     }
 
     // Styes
