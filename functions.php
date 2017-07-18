@@ -3,6 +3,9 @@
 // Setup
 require_once 'functions/setup.php';
 
+// Post types
+require_once 'functions/post-types.php';
+
 // Extras (eg. pagination)
 require_once 'functions/extras.php';
 
