@@ -1,5 +1,5 @@
 <?php
-function register_post_types() {
+function cptui_register_my_cpts() {
 
 	/**
 	 * Post Type: Projects.
@@ -163,6 +163,38 @@ function register_post_types() {
 	);
 
 	register_post_type( "resources", $args );
+
+	/**
+	 * Post Type: Partners.
+	 */
+
+	$labels = array(
+		"name" => __( 'Partners', 'spidex-software' ),
+		"singular_name" => __( 'Partner', 'spidex-software' ),
+	);
+
+	$args = array(
+		"label" => __( 'Partners', 'spidex-software' ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => false,
+		"rest_base" => "",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => array( "slug" => "partners", "with_front" => true ),
+		"query_var" => true,
+		"menu_icon" => "dashicons-groups",
+		"supports" => array( "title" ),
+	);
+
+	register_post_type( "partners", $args );
 }
 
-add_action( 'init', 'register_post_types' );
+add_action( 'init', 'cptui_register_my_cpts' );
