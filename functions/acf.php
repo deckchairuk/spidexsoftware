@@ -10,6 +10,8 @@ if( function_exists('acf_add_options_page') ) {
 	));	
 }
 
+// Remove WP meta box. Increases page load and is undeeded.
+add_filter('acf/settings/remove_wp_meta_box', '__return_true');
 
 // ACF Map API key
 function acf_map_api_key() {

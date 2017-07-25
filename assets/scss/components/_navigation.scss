@@ -52,6 +52,18 @@ ul.navigation {
 				}
 			}
 		}
+
+		.themed-header & {
+			a:hover, a:active {
+				border-bottom: 1px solid #fff;
+			}
+
+			&.current-menu-item {
+				a {
+					border-bottom: 1px solid #fff;
+				}
+			}
+		}
 	}
 
 	@include media-breakpoint-up(md) {
