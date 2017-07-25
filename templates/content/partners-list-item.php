@@ -5,7 +5,7 @@
 ?>
 <div class="partner">
 	<div class="partner__logo match-height">
-		<img src="<?= $logo['url'] ?>" alt="<?= $logo['alt'] ?>">
+		<img src="<?= $logo['sizes']['large']; ?>" alt="<?= $logo['alt'] ?>">
 	</div>
 
 	<div class="partner__details">
