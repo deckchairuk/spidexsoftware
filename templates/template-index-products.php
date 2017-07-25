@@ -10,4 +10,6 @@
 
 	<?php get_template_part('templates/content/partners', 'list'); ?>
 
+	<?php get_template_part('templates/content/cta', 'block'); ?>
+
 <?php get_template_part('footer'); ?>
