@@ -22,7 +22,7 @@
 					<?= $description ?>
 
 					<?php if ($factsheetLink): ?>
-						<a href="<?= $factsheetLink ?>">Facetsheet</a>
+						<a href="<?= $factsheetLink ?>" class="button button--primary">Factsheet</a>
 					<?php endif ?>
 				</div> <!-- .product-feature__details -->
 			</div>				

@@ -114,16 +114,45 @@
             $('.reset').show();
 
         });
-        
-        // $('.reset').click(function(e) {
-        //     e.preventDefault();
+    }
 
-        //     var currentUrl = [location.protocol, '//', location.host, location.pathname].join('');
+    var hoverTouchClassToggle = function() {
+        $('.partner').bind({
+            mouseenter: function () {
+                var detailsPanel = $(this).find('.partner__details');
 
-        //     $('#resource-list').load( currentUrl + ' #resource-list' );
-        //     $('.reset').hide();
+                $('.partner__details').fadeOut('fast');
+                $(this).find('.partner__details').fadeIn('fast');
+            },
+            mouseleave: function () {
+                var detailsPanel = $(this).find('.partner__details');
 
-        // });
+                $(this).find('.partner__details').fadeOut('fast');
+            }
+        });
+
+        $('.partner').on('click', function() {
+            var detailsPanel = $(this).find('.partner__details');
+
+            if (detailsPanel.is(":visible")) {
+                $(this).find('.partner__details').fadeOut('fast');
+            } else {
+                $('.partner__details').fadeOut('fast');
+                $(this).find('.partner__details').fadeIn('fast');
+            }
+        });
+
+        $(document).on('click', function(e) {
+            if ($(e.target).closest('.partner').length === 0) {
+                $('.partner__details').hide();
+            }
+        });
+
+        $(document).on('keydown', function(e) {
+            if (e.keyCode === 27) { // ESC
+                $('.partner__details').hide();
+            }
+        });
     }
 
     $(function() {
@@ -136,10 +165,11 @@
 
         mobileNavigationToggle();
 
-        // formVisualValidation();
+        hoverTouchClassToggle();
 
         $('.article .article__thumbnail').matchHeight();
         $('.article .article__details').matchHeight();
+        $('.match-height').matchHeight();
     });
 
     $(window).scroll(function() {

@@ -148,3 +148,18 @@ function get_articles($post_per_page = 5) {
 
     return $query;
 }
+
+function get_partners($post_per_page = 5) {
+    $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+
+    $args = array(
+        'post_type'         => 'partners',
+        'posts_per_page'    => $post_per_page,
+        'paged'             => $paged,
+        'post_status'       => array( 'publish' ),
+    );
+
+    $query = new WP_Query($args);
+
+    return $query;
+}
