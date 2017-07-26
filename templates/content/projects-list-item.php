@@ -4,6 +4,7 @@
 	$projectSlug 			= $post->post_name;
 	$projectSubheading 		= get_field('project_subheading');
 	$projectColour 			= get_field('project_colour');
+	$projectButtonColour 			= get_field('project_button_colour');
 	$projectFeaturedImage 	= get_field('project_overview_background_image');
 
 	$clientName 			= get_field('client_name');
@@ -31,7 +32,7 @@
 					<p><?= $projectSubheading; ?></p>
 
 					<?php if (!is_singular('projects')): ?>
-						<a href="<?php the_permalink(); ?>" class="button button--primary">How we helped <?= $clientName; ?></a>
+						<a href="<?php the_permalink(); ?>" class="button button--primary" <?= $projectButtonColour ? 'style="background-color: '.$projectButtonColour.'' : '' ?>>How we helped <?= $clientName; ?></a>
 					<?php endif ?>
 				</div>
 			</div>
