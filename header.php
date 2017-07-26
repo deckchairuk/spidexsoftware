@@ -47,7 +47,7 @@
 					</div>
 
 					<div class="support-toggle">
-						<p>Support <i class="icon icon_arrow"></i></p>
+						<p>Customer area <i class="icon icon_arrow"></i></p>
 					</div>
 
 				</div>
