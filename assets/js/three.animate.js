@@ -94,7 +94,6 @@ function animate() {
 
 function render() {
 
-
 	camera.position.set(0,355,122);
 
 	var i = 0;
