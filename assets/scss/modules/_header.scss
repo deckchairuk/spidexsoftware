@@ -54,7 +54,8 @@
 		}
 
 		.mobile-nav-toggle {
-			margin-right: 12px; 
+			margin-right: 12px;
+			margin-bottom: 0;
 		}
 	}	
 }
@@ -70,7 +71,7 @@
 			margin-top: 0; 
 		}
 				
-		@include media-breakpoint-down(md) {
+		@include media-breakpoint-down(lg) {
 			width: 180px;
 		}
 
@@ -184,6 +185,10 @@ body.themed-header {
 	z-index: 11; 
 	
 	@include media-breakpoint-up(md) {
+		margin-bottom: 18px; 
+	}
+
+	@include media-breakpoint-up(lg) {
 		display: none!important;
 	}
   
@@ -259,7 +264,7 @@ body.themed-header {
 		display: block;
 	}
 	
-	@include media-breakpoint-up(md) {
+	@include media-breakpoint-up(lg) {
 		display: none!important;
 	}
 

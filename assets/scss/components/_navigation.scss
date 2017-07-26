@@ -15,7 +15,7 @@ ul.navigation {
 	.header__inner & {
 		display: none;
 		
-		@include media-breakpoint-up(md) {
+		@include media-breakpoint-up(lg) {
 			display: block;
 		}
 	}
@@ -33,7 +33,7 @@ ul.navigation {
 			font-size: 16px;
 		}
 
-		@include media-breakpoint-down(md) {
+		@include media-breakpoint-down(lg) {
 			margin-right: 14px;
 			font-size: 14px;
 		}
@@ -66,7 +66,7 @@ ul.navigation {
 		}
 	}
 
-	@include media-breakpoint-up(md) {
+	@include media-breakpoint-up(lg) {
 		padding-left: 42px;
 	}
 
@@ -147,7 +147,7 @@ ul.navigation {
 					  
 			}
 
-			@include media-breakpoint-down(md) {
+			@include media-breakpoint-down(lg) {
 				margin-right: 10px;
 				font-size: 14px;
 				
