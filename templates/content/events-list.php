@@ -20,7 +20,17 @@
 			</div>
 		</div>
 	<?php else:  ?>
-		There are no events to display
+		<div class="events">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-12">
+						<h4>There are currently no events, please check again soon or <a href="/contact">get in touch</a> for more information.</h4>
+					</div>
+				</div>
+
+			</div>
+		</div> <!-- .events -->
 	<?php endif; ?>
 
 <?php wp_reset_postdata(); ?>

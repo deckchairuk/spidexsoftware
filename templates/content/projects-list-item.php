@@ -43,7 +43,7 @@
 						<img src="<?= $clientLogo; ?>" alt="">
 					</a>
 
-					<h5>Client</h5>
+					<h5>Customer</h5>
 					<p><?= $clientName; ?></p>
 
 					<h5>Sector</h5>

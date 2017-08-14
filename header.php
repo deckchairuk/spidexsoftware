@@ -32,7 +32,7 @@
 					<div class="logo">
 						<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/spidex-logo-white.svg" alt="Spidex Software logo" class="logo__large logo--white"/></a>
 
-						<?php if (is_page_template('templates/template-index-articles.php') || is_singular('articles') || is_page('What we do') || is_page('Resources')): ?>
+						<?php if (is_page_template('templates/template-index-articles.php') || is_singular('articles') || is_singular('projects') || is_page('What we do') || is_page('Resources')): ?>
 							<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/spidex-logo-all-white.svg" alt="Spidex Software logo" class="logo__large"/></a>
 						<?php else: ?>
 							<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/spidex-logo-grey.svg" alt="Spidex Software logo" class="logo__large"/></a>
