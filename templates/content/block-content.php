@@ -16,6 +16,10 @@
 
 						<?php the_post_thumbnail(); ?>
 
+						<?php if (get_field('description')): ?>
+							<?php the_field('description'); ?>					
+						<?php endif ?>
+
 						<?php the_content(); ?>
 					<?php endwhile; endif; ?>
 				</div>
