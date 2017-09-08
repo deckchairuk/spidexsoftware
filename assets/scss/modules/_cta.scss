@@ -1,6 +1,7 @@
 .cta {
 	padding: $spacer--lg 0;
 	background-color: #FFF;
+	text-align: center;
 	
 	@include media-breakpoint-down(md) {
 		padding: $spacer--md 0;

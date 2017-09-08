@@ -2,7 +2,7 @@
 
 	<a href="<?php the_permalink(); ?>">
 		<div class="article__thumbnail" <?= get_field('colour') ? 'style="background-color: '.get_field('colour').';"' : ''; ?>>
-			<?php the_post_thumbnail(); ?>
+			<?php the_post_thumbnail('large'); ?>
 		</div>
 	</a>
 

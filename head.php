@@ -8,8 +8,6 @@
             (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
         </script>
 
-        <!-- Font setup -->
-
         <!--[if lt IE 9]>
             <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>

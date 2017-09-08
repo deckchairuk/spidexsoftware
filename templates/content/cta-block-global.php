@@ -9,7 +9,7 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col">
+			<div class="col col-lg-10 offset-lg-1">
 				<div class="cta__inner">
 					<p class="no-margin--top"><?= $ctaText ?></p>
 
