@@ -21,55 +21,55 @@
     }
 
     var resourceFilters = function() {
+        var resourceFiltersTag = $('.filters--resource .tag');
+
     	// Initialise select2
-    	$('.filters--resource .tag').select2({
+    	resourceFiltersTag.select2({
             width: 'resolve'
         });
 
     	// Set value of select to previously selected value (if exists)
     	$tagQS = getUrlVars()["tag"]
-    	$(".filters--resource .tag").find('option[value=' + $tagQS + ']').attr('selected', 'selected');
-        $(".filters--resource .tag").trigger('change.select2');
+    	resourceFiltersTag.find('option[value=' + $tagQS + ']').attr('selected', 'selected');
+        resourceFiltersTag.trigger('change.select2');
     }
 
     var headerTransform = function() {
+        var stickyHeaderModifiers = $('header, body');
+
         if ($(window).scrollTop() > 1) {
-            $('header, body').addClass("shrink");
+            stickyHeaderModifiers.addClass("shrink");
         } else {
-            $('header, body').removeClass("shrink");
+            stickyHeaderModifiers.removeClass("shrink");
         }
     }
 
     var supportNavigationToggle = function() {
         var isOpen = false,
+            body = $('body'),
             originalHeaderHeight = $('header').outerHeight();
 
         $('.support-toggle').on('click', function(e) {
             if (isOpen) {
-                $('body').removeClass('support-nav--open');
-                // $('body').css('margin-top', originalHeaderHeight);
-
+                body.removeClass('support-nav--open');
                 isOpen = false;
             } else {
-                $('body').addClass('support-nav--open');
-                // $('body').css('margin-top', originalHeaderHeight + 64);
-
+                body.addClass('support-nav--open');
                 isOpen = true;
             }
         });
     }
 
     var mobileNavigationToggle = function() {
-        var isOpen = false;
+        var isOpen = false,
+            body = $('body');
 
         $('.mobile-nav-toggle').click(function(){
             if (isOpen) {
-                $('body').removeClass('mobile-nav-open');
-
+                body.removeClass('mobile-nav-open');
                 isOpen = false;
             } else {
-                $('body').addClass('mobile-nav-open');
-
+                body.addClass('mobile-nav-open');
                 isOpen = true;
             }
         });
@@ -117,40 +117,38 @@
     }
 
     var hoverTouchClassToggle = function() {
+        var detailsPanel = $('.partner__details');
+
         $('.partner').bind({
             mouseenter: function () {
-                var detailsPanel = $(this).find('.partner__details');
-
-                $('.partner__details').fadeOut('fast');
-                $(this).find('.partner__details').fadeIn('fast');
+                detailsPanel.stop().hide();
+                $(this).find('.partner__details').stop().fadeIn('fast');
             },
             mouseleave: function () {
-                var detailsPanel = $(this).find('.partner__details');
-
-                $(this).find('.partner__details').fadeOut('fast');
+                $(this).find('.partner__details').stop().hide();
             }
         });
 
         $('.partner').on('click', function() {
-            var detailsPanel = $(this).find('.partner__details');
+            var currentDetailsPanel = $(this).find('.partner__details');
 
-            if (detailsPanel.is(":visible")) {
-                $(this).find('.partner__details').fadeOut('fast');
+            if (currentDetailsPanel.is(":visible")) {
+                currentDetailsPanel.stop().hide();
             } else {
-                $('.partner__details').fadeOut('fast');
-                $(this).find('.partner__details').fadeIn('fast');
+                detailsPanel.hide();
+                currentDetailsPanel.stop().fadeIn('fast');
             }
         });
 
         $(document).on('click', function(e) {
             if ($(e.target).closest('.partner').length === 0) {
-                $('.partner__details').hide();
+                detailsPanel.hide();
             }
         });
 
         $(document).on('keydown', function(e) {
             if (e.keyCode === 27) { // ESC
-                $('.partner__details').hide();
+                detailsPanel.hide();
             }
         });
     }
