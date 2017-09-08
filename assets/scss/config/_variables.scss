@@ -23,12 +23,9 @@ $link-colour--active: #6d6e70;
 $link-colour--visited: #6d6e70;
 $link-colour--hover: #6d6e70;
 
-// Google Fonts
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
-
 // Font Variables
-$bodyFont: 'Roboto Slab', sans-serif;
-$headingFont: 'Roboto Slab', sans-serif;
+$bodyFont: 'Roboto', sans-serif;
+$headingFont: 'Roboto', sans-serif;
 
 // Spacing
 $spacer--xl: 92px;
