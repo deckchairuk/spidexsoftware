@@ -167,6 +167,7 @@
 
         $('.article .article__thumbnail').matchHeight();
         $('.article .article__details').matchHeight();
+        $('.feature .feature__graphic').matchHeight();
         $('.match-height').matchHeight();
     });
 
