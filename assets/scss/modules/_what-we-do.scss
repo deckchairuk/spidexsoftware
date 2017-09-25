@@ -4,15 +4,15 @@
 
 .what-we-do-intro {	
 	text-align: center;
-	padding: $spacer--lg 0;
 	position: relative;
+	padding: 0 0 50px 0;
 	
 	@include media-breakpoint-down(md) {
-		padding: $spacer--md 0;
+		padding: 0 0 34px 0;
 	}
 
 	@include media-breakpoint-down(sm) {
-		padding: $spacer--sm 0;
+		padding: 0 0 24px 0;
 	}
 
 	h1 {
