@@ -34,7 +34,7 @@
 							<?php endif ?>
 
 							<div class="about">
-								<p class="no-margin--bottom"><a href="/what-we-do">About the company</a></p>
+								<p class="no-margin--bottom"><a href="/company-background">About the company</a></p>
 							</div>
 						</div>
 					</div>
