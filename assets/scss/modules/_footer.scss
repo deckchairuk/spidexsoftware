@@ -78,10 +78,11 @@
 .legal {
 	background-color: #1a1a1a; 
 	padding: $spacer--sm 0; 
-	
+
 	span, a, li {
 		color: #fff;
 		font-size: 14px; 
 		line-height: 16px; 
+		padding: 8px 0 8px 0; 
 	}
 }

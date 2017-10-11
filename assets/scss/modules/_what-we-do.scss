@@ -65,6 +65,9 @@
 		
 		img.profile-image {
 			border-radius: 50%;
+			max-width: 150px;
+			display: inline-block;
+			text-align: center;
 		}
 		
 		h6 {

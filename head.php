@@ -15,6 +15,16 @@
         <![endif]-->
 
         <?php wp_head(); ?>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5089087-3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-5089087-3');
+        </script>
     </head>
     <?php if (is_front_page() || is_singular('projects')) : ?>
         <body <?php body_class('themed-header'); ?>>
