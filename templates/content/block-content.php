@@ -11,8 +11,10 @@
 						<?php endif; ?>
 
 						<h1 class="title"><?php the_title(); ?></h1>
-
-						<h6 class="date"><?php the_date(); ?></h6>
+						
+						<?php if (is_singular('articles')): ?>
+							<h6 class="date"><?php the_date(); ?></h6>
+						<?php endif ?>
 
 						<?php the_post_thumbnail(); ?>
 
