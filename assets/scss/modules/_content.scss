@@ -22,6 +22,10 @@
 		background-color: #FFF;
 		padding: $spacer--md;
 		
+		.page-template-default & {
+			box-shadow: none;
+		}
+		
 		@include media-breakpoint-down(sm) {
 			padding: $spacer--md $spacer--sm;
 		}
@@ -37,6 +41,10 @@
 
 	h1.title {
 		margin: 24px 0 4px 0; 
+		
+		.page-template-default & {
+			font-size: 48px; 
+		}
 	}
 
 	h6.date {
