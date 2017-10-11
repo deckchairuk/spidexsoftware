@@ -27,6 +27,10 @@
 		<div class="row">
 			<div class="col-12 col-lg-8">
 				<div class="hero__inner">
+					<?php if (is_front_page()): ?> <!-- If home page -->
+						<h5 class="page-tag"><a href="/customer-stories/">Customer story</a></h5>
+					<?php endif; ?>
+
 					<h1><?= $projectHeading; ?></h1>
 
 					<p><?= $projectSubheading; ?></p>
